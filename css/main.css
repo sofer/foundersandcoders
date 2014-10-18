@@ -2490,31 +2490,38 @@ div.clear {
   margin: 0 auto;
 }
 
+.process-page .step-one .container {
+  width: 100%;
+}
+
 .process-page .step-one {
-  background-image: url(/img/icon_projectReq.png);
   background-color: #75ad74;
-  background-repeat: no-repeat;
-  background-position: center 100px;
-  background-size: 120px;
+  overflow: scroll;
 }
 .process-page .step-one .text-container-one {
   position: absolute;
   width: 50%;
   margin: auto;
   float: left;
-  height: 100%;
-  padding-left: 10%;
-  padding-top: 8%;
+  height: 50%;
+  line-height: 100%;
 }
 .process-page .step-one .text-container-one p {
-  position: relative;
+  position: absolute;
+  top: 90px;
+  left: 90px;
   float: left;
   vertical-align: middle;
   line-height: 2;
-  width: 70%;
+  color: #F7F2E0;
+  font-weight: 300;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 90%;
 }
-.process-page .step-one .text-container-one h1 {
-  text-align: left;
+.process-page .step-one .text-container-one span {
+  font-size: 200%;
+  line-height: 50%;
+  color: #ffffff;
 }
 .process-page .step-one .image-container-one {
   display: inline-block;
@@ -2528,20 +2535,43 @@ div.clear {
   width: 70%;
 }
 
+.process-page .step-two {
+  padding-top: 75px;
+  background-color: #006b68;
+}
+.process-page .step-two .container {
+  width: 60%;
+}
+.process-page .step-two h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #75ad74;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.process-page .step-two p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: #F7F2E0;
+  text-align: center;
+  font-weight: 300;
+}
+.process-page .step-two img {
+  width: 100%;
+  height: auto;
+  max-width: 900px;
+  margin: auto;
+  padding: 5%;
+  border-radius: 40px;
+}
+
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .process-page .step-one {
     background-image: url(/img/icon_projectReq@2x.png);
     background-size: 120px auto;
   }
 }
-.process-page .step-one .container {
-  width: 100%;
-}
-
-.process-page .step-one, .process-page .step-six {
-  padding: 50px;
-}
-
 .process-page .step-one h1, .process-page .step-six h1 {
   font-size: 32px;
   font-weight: 300;
@@ -2557,39 +2587,6 @@ div.clear {
   color: #d3ceea;
   text-align: center;
   padding-top: 0;
-}
-
-.process-page .step-two {
-  padding-top: 150px;
-  background-color: #006b68;
-}
-
-.process-page .step-two .container {
-  width: 60%;
-}
-
-.process-page .step-two h1 {
-  font-size: 32px;
-  font-weight: 300;
-  color: #484652;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.process-page .step-two p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 2;
-  color: #809ba04;
-  text-align: center;
-}
-
-.process-page .step-two img {
-  width: 100%;
-  height: auto;
-  max-width: 900px;
-  margin: auto;
-  padding-top: 80px;
 }
 
 .process-page .step-three {

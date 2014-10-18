@@ -1,4 +1,4 @@
-$FONT: 'Source Sans Pro', sans-serif;
+$FONT:'Source Sans Pro', sans-serif;
 
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
@@ -2527,32 +2527,38 @@ div.clear {
     }
 }
 
+.process-page .step-one .container {
+    width: 100%;
+}
+
 .process-page .step-one {
-    background-image: url(/img/icon_projectReq.png);
     background-color: #75ad74;
-    background-repeat: no-repeat;
-    background-position: center 100px;
-    background-size: 120px;
+    overflow: scroll;
     .text-container-one {
         position: absolute;
         width: 50%;
         margin: auto;
         float: left;
-        height: 100%;
-        padding-left: 10%;
-        padding-top: 8%;
+        height: 50%;
+        line-height: 100%;
         p {
-            position: relative;
+            position: absolute;
+            top: 90px;
+            left: 90px;
             float: left;
             vertical-align: middle;
             line-height: 2;
-            width: 70%;
+            color: #F7F2E0;
+            font-weight: 300;
+            font-family: $FONT;
+            width: 90%;
         }
-        h1 {
-            text-align: left;
+        span {
+            font-size: 200%;
+            line-height: 50%;
+            color: #ffffff;
         }
     }
-
     .image-container-one {
         display: inline-block;
         width: 50%;
@@ -2566,19 +2572,43 @@ div.clear {
     }
 }
 
+.process-page .step-two {
+    padding-top: 75px;
+    background-color: #006b68;
+    .container {
+        width: 60%;
+    }
+    h1 {
+        font-size: 32px;
+        font-weight: 300;
+        color: #75ad74;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 2;
+        color: #F7F2E0;
+        text-align: center;
+        font-weight: 300;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 900px;
+        margin: auto;
+        padding: 5%;
+        border-radius: 40px;
+    }
+}
+
+
 @media (-webkit-min-device-pixel-ratio: 1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:3/2),(min-resolution:1.5dppx) {
     .process-page .step-one {
         background-image:url(/img/icon_projectReq@2x.png);
         background-size: 120px auto
     }
-}
-
-.process-page .step-one .container {
-    width: 100%;
-}
-
-.process-page .step-one,.process-page .step-six {
-    padding: 50px;
 }
 
 .process-page .step-one h1,.process-page .step-six h1 {
@@ -2596,39 +2626,6 @@ div.clear {
     color: #d3ceea;
     text-align: center;
     padding-top: 0;
-}
-
-.process-page .step-two {
-    padding-top: 150px;
-    background-color: #006b68;
-}
-
-.process-page .step-two .container {
-    width: 60%;
-}
-
-.process-page .step-two h1 {
-    font-size: 32px;
-    font-weight: 300;
-    color: #484652;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.process-page .step-two p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2;
-    color: #809ba04;
-    text-align: center;
-}
-
-.process-page .step-two img {
-    width: 100%;
-    height: auto;
-    max-width: 900px;
-    margin: auto;
-    padding-top: 80px
 }
 
 .process-page .step-three {

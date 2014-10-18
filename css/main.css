@@ -2496,7 +2496,6 @@ div.clear {
 
 .process-page .step-one {
   background-color: #75ad74;
-  overflow: scroll;
 }
 .process-page .step-one .text-container-one {
   position: absolute;

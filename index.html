@@ -2,8 +2,479 @@
 layout: default
 ---
 
-<div class="home">
-	
-</div>
+<region template="Body" contents="Body"><div><region data-id="content" default="HomePage" contents="HomePage"><div class="home-page">
+	<!-- LOADING STATE -->
+	<region class="veil" default="LoadingOverlay" contents="LoadingOverlay"><div class="loading-overlay-container">
 
-<p>“There is no meaning if meaning is not shared, and not because there would be an ultimate or first signification that all beings have in common, but because meaning is itself the sharing of Being.”</p>
+
+</div></region>
+
+	<!-- BANNER SECTION -->
+	<div class="tagline">
+		<div class="tagline_container container">
+			<img src="/camdenlogo.png" alt="leaping rabbit silhouette">
+			<h1>Web. Node.js. D3. Realtime.</h1>
+			<p>Elegant and affordable web apps built on the most efficient platforms around. Full web development service, end-to-end.</p>
+		</div>
+	</div>
+
+	<!-- PROJECTS WITH PICTURE-->
+	<div class="projects">
+		<div class="project_container container">
+			<!-- BUTTON LINKING TO THE PORTFOLIO PAGES -->
+			<div class="project-archive-link project" data-portfolioview="PortfolioSails" data-mast-events="click">
+				<span>Browse all our projects</span>
+				<img src="/img/button_add@2x.jpg" width="25" height="25">
+			</div>
+			<!-- PHOTO RECTANGLE -->
+			<div class="two-column">
+				<div class="column left">
+					<!-- SAILS -->
+					<div class="project sails" data-portfolioview="PortfolioSails" data-mast-events="click">
+						<img class="project-photo" alt="Illustration of a tentacle coming out of the ocean with the text: Sails Realtime API Framework for Node.js" title="" src="/img/project_sails@2x.jpg" width="580" height="300">
+						<!-- DESCRIPTION -->
+						<div class="hover-description">
+							<span><h4>Sails</h4>Realtime MVC Framework for Node.js</span>
+						</div>
+					</div>
+					<div class="bottom-row">
+						<!-- HEADSPRING -->
+							<div class="project headspring" data-portfolioview="PortfolioHeadspring" data-mast-events="click">
+								<img alt="Screnshot of a corporate website" class="project-photo" src="/img/project_headspring@2x.jpg" width="289" height="246">
+								<!-- DESCRIPTION -->
+								<div class="hover-description">
+									<span><h4>Headspring</h4>Redesign</span>
+								</div>
+							</div>
+							<!-- IOFFICE -->
+							<div class="project ioffice" data-portfolioview="PortfolioOlympus" data-mast-events="click">
+								<img alt="a smartphone with the iOffice app on the screen" class="project-photo" src="/img/project_olympus@2x.jpg" width="289" height="246">
+								<!-- DESCRIPTION -->
+								<div class="hover-description">
+									<span><h4>Olympus</h4>File Management</span>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="column right">
+					<!-- OLYMPUS -->
+					<div class="project olympus" data-portfolioview="PortfolioiOffice" data-mast-events="click">
+						<img alt="a smartphone with a file-sharing app on the screen" class="project-photo" src="/img/bbc-app.jpg">
+						<!-- DESCRIPTION -->
+						<div class="hover-description">
+							<span><h4>iOffice</h4>Mobile Web Asset Management</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- LINK FOR ABOUT US SECTION -->
+	<a name="about" id="about"></a>
+	<!-- LIST OF STUFF ABOUT US -->
+	<div class="about-list">
+		<div class="aboutlist_container container">
+				<div class="top-row">
+					<div class="top_left">
+						<img alt="a pawprint" src="/camdenlogo.png" width="45" height="45">
+						<h4>&nbsp;Real-world Node.js.</h4>
+						<ul class="synonyms" data-animate="cycle-into-h4">
+							<li>We built Sails.js.</li>
+							<li>Real-time applications.</li>
+							<li>Node.js MVC.</li>
+							<li>Express + Socket.io.</li>
+							<li>Streaming file uploads.</li>
+							<li>PostgreSQL + MySQL.</li>
+							<li>Data-intensive analytics.</li>
+							<li>MongoDB + Redis.</li>
+						</ul>
+						<p>Node is a pretty big deal to us.  When we committed to using Node in production, we were head-over-heels excited about learning the ins and outs of Express, Connect, and Socket.io the hard way.  But as we developed our team and started working with larger customers, we realized the need for a conventional structure on top of Node to (1) reduce the total cost of implementation/ownership and (2) allow our projects to be efficiently maintained after we hand over the keys.  That's how Mike ended up building <a title="MVC framework for Node.js" target="_blank" href="http://sailsjs.org">Sails.js</a>.  We're humbled and impressed every day by the fantastic community that has rallied around us.  In less than three years, <a href="http://sailsjs.org" target="_blank" title="MVC framework for Node.js">Sails</a> has emerged as the most popular MVC framework for Node.js.</p>
+					</div>
+					<div class="top_right">
+						<img alt="a pawprint" src="/camdenlogo.png" width="45" height="45">
+						<h4>&nbsp;Well-oiled applications.</h4>
+						<ul class="synonyms" data-animate="cycle-into-h4">
+							<li>HTML 5</li>
+							<li>Angular</li>
+							<li>Backbone</li>
+							<li>CSS 3</li>
+							<li>SVG / D3</li>
+							<li>Canvas</li>
+							<li>D3</li>
+							<li>Asset pipeline.</li>
+						</ul>
+						<p>As browser capabilities improve, users have less and less patience for anything... "behind the times". If you want to hold their attention for longer than a few seconds, you have to keep your interfaces looking sharp and up-to-date with modern technology and a relevant design. It's a lot to keep up with, but that's where Heather and our front-end team can help. We use our expertise in HTML5, CSS3, and JavaScript to create beautiful, intuitive, interactive  experiences that will keep your users coming back for more. Meanwhile, the backend team makes sure your new stuff integrates seamlessly with proprietary APIs, legacy databases, and any other techno-bogeymen reckless enough to challenge us.</p>
+					</div>
+				</div>
+			<div class="bottom-row">
+				<div class="bot_left">
+					<img alt="a pawprint" src="/camdenlogo.png" width="45" height="45">
+					<h4>&nbsp;User-centric design.</h4>
+					<ul class="synonyms" data-animate="cycle-into-h4">
+						<li>Phonegap / Cordova</li>
+						<li>Hybrid Apps</li>
+						<li>Interactive Design</li>
+						<li>Mobile Web</li>
+						<li>Fluid Layouts</li>
+					</ul>
+					<p>In 2014, responsive design is more than a trend; it's a requirement.  Nowadays, targeting iPhone, iPad, and <a href="http://developer.android.com/guide/practices/screens_support.html#testing" target="_blank">Android</a> means supporting at least <a href="http://stackoverflow.com/a/21476862/486547" target="_blank">12 different resolutions</a>. Not to mention that most of these devices can be flipped into landscape and portrait mode.
+
+						But responsive implementation and design are relatively new skill sets, and many product/marketing teams don't have relevant expertise in-house... yet.  Balderdash specializes in accelerating product teams past this hump.  We focus on two critical areas: (1) reducing implementation risks and (2) setting up front-end code you can maintain without us.</p>
+				</div>
+				<div class="bot_right">
+					<img alt="a pawprint" src="/camdenlogo.png" width="45" height="45">
+					<h4>&nbsp;API-first development.</h4>
+						<ul class="synonyms" data-animate="cycle-into-h4">
+							<li>Web platform design.</li>
+							<li>Regulatory compliance.</li>
+							<li>Lightweight APIs.</li>
+							<li>Legacy integrations.</li>
+							<li>Service-oriented architecture.</li>
+							<li>API-layer scalability.</li>
+						</ul>
+					<p>If you want an app that's future-proof, its functionality can't be tied to a single device. But that's NOT WHY you should build a <a href="http://bit.ly/be-dev-agnostic" target="_blank">service-oriented architecture</a>! By powering your app with an API layer, you write reusable, testable, maintainable code -- instead of hacks.  You don't have to completely reinvent your software to adapt to new technology -- your product was built on a solid foundation from the beginning.  Most importantly, even if it's just a <a href="http://venturebeat.com/2011/08/16/linkedin-node/" target="_blank">wrapper around an existing system</a>, exposing and documenting a clean API around your business logic means less lock-in and fewer points of failure.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--LINK FOR SMALL SCREENS-->
+	<div class="projects mobile">
+		<div class="mobile-archive-link project_container container">
+			<div class="project-archive-link project" data-mast-events="click">
+				<span>Browse all our projects</span>
+				<img src="img/button_add@2x.jpg">
+			</div>
+		</div>
+	</div>
+
+<style type="text/css">
+	.top-row-1 {
+		margin-left: 80px;
+		overflow: auto;
+		margin-bottom: 50px;
+	}
+
+	.top-row-1 div {
+		float: left;
+		padding-left: 100px;
+	}
+</style>
+
+
+	<!-- CLIENTS SECTION -->
+	<div class="clients">
+		<div class="logo-region">
+			<h2>Some of our happy clients</h2>
+			<div class="client-logos">
+				<div class="top-row-1">
+					<div><img width="150px" src="img/hapi.png"></div>
+					<div><img width="150px" src="img/javascript.png"></div>
+					<div><img width="250px" src="img/nodejswhite.png"></div>
+				</div>
+				<div style="padding-left:15%;" class="top-row-1">
+					<div><img width="150px" src="img/sass2.png"></div>
+					<div><img width="150px" src="img/d3.png"></div>
+				</div>
+				<div style="padding-left:8%;" class="top-row-1">
+					<div><img width="250px" src="img/cc.png"></div>
+					<div><img width="250px" src="img/ctu.png"></div>
+				</div>
+			</div>
+		</div>
+		<!-- This is the link to the team section.
+				Putting it here so it looks a little nicer. -->
+		<a name="team" id="team"></a>
+	</div>
+
+	<!-- TEAM SECTION -->
+		<a name="team" id="team"></a>
+		<div class="team">
+		<div class="team-region">
+			<div class="container">
+					<div class="heading">
+						<h1>We're a small team with big talent.</h1>
+						<h3>Meet our happy family of designers and developers.</h3>
+					</div>
+				<div class="the-team">
+					<!-- THE MAP -->
+					<div class="map mobile"></div>
+					<!-- TEAM MEMBERS -->
+					<div class="two-column">
+						<div class="column left-column">
+							<a target="_blank" href="https://twitter.com/mikermcneil">
+								<div class="team-member mike-m">
+									<div class="team-mike photo"></div>
+									<div class="text">
+										<p>Mike McNeil</p>
+										<p><span>Founder</span></p>
+									</div>
+								</div>
+							</a>
+							<a class="mobile" target="_blank" href="https://www.linkedin.com/in/kallunalovegood/">
+								<div class="team-member heather">
+									<div class="team-heather photo"></div>
+									<div class="text">
+										<p>Heather White</p>
+										<p><span>Founder, Creative Director</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="http://www.linkedin.com/in/scottgress">
+								<div class="team-member scott">
+									<div class="team-scott photo"></div>
+									<div class="text">
+										<p>Scott Gress</p>
+										<p><span>JavaScript Developer</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://twitter.com/fancydoilies">
+								<div class="team-member rachael">
+									<div class="team-rachael photo"></div>
+									<div class="text">
+										<p>Rachael Shaw</p>
+										<p><span>UX Developer</span></p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="column right-column">
+							<a class="heather" target="_blank" href="https://www.linkedin.com/in/kallunalovegood/">
+								<div class="team-member heather desk">
+									<div class="team-heather photo"></div>
+									<div class="text">
+										<p>Heather White</p>
+										<p><span>Founder, Creative Director</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://github.com/particlebanana">
+								<div class="team-member cody">
+									<div class="team-cody photo"></div>
+									<div class="text">
+										<p>Cody Stoltman</p>
+										<p><span>JavaScript Developer</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://twitter.com/ncrumrine">
+								<div class="team-member nick">
+									<!-- <img alt="Photo of Nick Crumrine" src="/img/team_nick.png"/> -->
+									<div class="team-nick photo"></div>
+									<div class="text">
+										<p>Nick Crumrine</p>
+										<p><span>Javascript Developer</span></p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="two-column" style="float:left;">
+						<div class="column left-column">
+							<a target="_blank" href="https://www.linkedin.com/in/ccrowwyrtzen/">
+								<div class="team-member courtney">
+									<div class="team-courtney photo"></div>
+									<div class="text">
+										<p>Courtney Wyrtzen</p>
+										<p><span>Communications Coordinator</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://twitter.com/mikermcneil">
+								<div class="team-member mike-m">
+									<div class="team-mike photo"></div>
+									<div class="text">
+										<p>Mike McNeil</p>
+										<p><span>Founder</span></p>
+									</div>
+								</div>
+							</a>
+							<a class="mobile" target="_blank" href="https://www.linkedin.com/in/kallunalovegood/">
+								<div class="team-member heather">
+									<div class="team-heather photo"></div>
+									<div class="text">
+										<p>Heather White</p>
+										<p><span>Founder, Creative Director</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="http://www.linkedin.com/in/scottgress">
+								<div class="team-member scott">
+									<div class="team-scott photo"></div>
+									<div class="text">
+										<p>Scott Gress</p>
+										<p><span>JavaScript Developer</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://twitter.com/fancydoilies">
+								<div class="team-member rachael">
+									<div class="team-rachael photo"></div>
+									<div class="text">
+										<p>Rachael Shaw</p>
+										<p><span>UX Developer</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="http://www.edamamedesign.com/">
+								<div class="team-member mike-t">
+									<div class="team-edamame photo"></div>
+									<div class="text">
+										<p>Mike Thomas <span class="special">(Osaka)</span></p>
+										<p><span>Senior UX Designer</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://twitter.com/ncrumrine">
+								<div class="team-member nick">
+									<!-- <img alt="Photo of Nick Crumrine" src="/img/team_nick.png"/> -->
+									<div class="team-nick photo"></div>
+									<div class="text">
+										<p>Nick Crumrine</p>
+										<p><span>Javascript Developer</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://www.linkedin.com/in/ccrowwyrtzen/">
+								<div class="team-member courtney">
+									<div class="team-courtney photo"></div>
+									<div class="text">
+										<p>Courtney Wyrtzen</p>
+										<p><span>Communications Coordinator</span></p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="column right-column">
+							<a target="_blank" href="http://www.edamamedesign.com/">
+								<div class="team-member mike-t">
+									<div class="team-edamame photo"></div>
+									<div class="text">
+										<p>Mike Thomas <span class="special">(Osaka)</span></p>
+										<p><span>Senior UX Designer</span></p>
+									</div>
+								</div>
+							</a>
+							<a class="heather" target="_blank" href="https://www.linkedin.com/in/kallunalovegood/">
+								<div class="team-member heather desk">
+									<div class="team-heather photo"></div>
+									<div class="text">
+										<p>Heather White</p>
+										<p><span>Founder, Creative Director</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://github.com/particlebanana">
+								<div class="team-member cody">
+									<div class="team-cody photo"></div>
+									<div class="text">
+										<p>Cody Stoltman</p>
+										<p><span>JavaScript Developer</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://twitter.com/ncrumrine">
+								<div class="team-member nick">
+									<!-- <img alt="Photo of Nick Crumrine" src="/img/team_nick.png"/> -->
+									<div class="team-nick photo"></div>
+									<div class="text">
+										<p>Nick Crumrine</p>
+										<p><span>Javascript Developer</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://www.linkedin.com/in/ccrowwyrtzen/">
+								<div class="team-member courtney">
+									<div class="team-courtney photo"></div>
+									<div class="text">
+										<p>Courtney Wyrtzen</p>
+										<p><span>Communications Coordinator</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://twitter.com/ncrumrine">
+								<div class="team-member nick">
+									<!-- <img alt="Photo of Nick Crumrine" src="/img/team_nick.png"/> -->
+									<div class="team-nick photo"></div>
+									<div class="text">
+										<p>Nick Crumrine</p>
+										<p><span>Javascript Developer</span></p>
+									</div>
+								</div>
+							</a>
+							<a target="_blank" href="https://www.linkedin.com/in/ccrowwyrtzen/">
+								<div class="team-member courtney">
+									<div class="team-courtney photo"></div>
+									<div class="text">
+										<p>Courtney Wyrtzen</p>
+										<p><span>Communications Coordinator</span></p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- CLIENTS SECTION -->
+	<div class="clients">
+		<div class="logo-region">
+			<h2>Why</h2>
+			<div class="client-logos">
+				<div class="top-row">
+					<div class="ioffice logo"></div>
+					<div class="olympus logo"></div>
+					<div class="enlyton logo wide"></div>
+				</div>
+				<div class="mid-row">
+					<div class="headspring logo wide"></div>
+					<div class="twohourcommitment logo"></div>
+					<div class="atpe logo wide"></div>
+				</div>
+				<div class="bot-row">
+					<div class="unwirednation logo wide"></div>
+					<div class="chatkin logo"></div>
+					<div class="engine logo wide"></div>
+				</div>
+			</div>
+		</div>
+		<!-- This is the link to the team section.
+				Putting it here so it looks a little nicer. -->
+		<a name="team" id="team"></a>
+	</div>
+</div></region>
+
+<!-- These are on every page. -->
+<region default="Contact" contents="Contact"><div class="contact" data-mast-events="click">
+	<!-- Link to this part of the page -->
+	<a name="contact"></a>
+	<div class="contact-region clearfix">
+		<div class="container">
+			<div class="form-heading">
+				<h1>Ready to get started?</h1>
+				<h3>We're always looking for the next challenge. <br>But first, let's make sure we're the right team for you:</h3>
+				<!-- <h3>Let&apos;s talk about your project! Have an existing team? No problem.</br> We position your team to succeed when we hand over the torch.</h3> -->
+			</div>
+			<div class="input-error-message name-error">
+				Please tell us your name, so we can make our response more personal!
+			</div>
+			<div class="input-error-message email-error">
+				I'm sorry but that is not a valid email. Please use a valid email address so we can get back to you.
+			</div>
+			<div class="input-error-message multiple-errors">
+				Please give us more information, so we can better plan how to help you out!
+			</div>
+			<div class="contact-form clearfix">
+				<span class="internal-error-message">We had an unexpected internal error. Please try again later.</span>
+				<span class="success-message">Thank you! We'll be in touch with you soon.</span>
+			</div>
+		</div>
+	</div>
+</div></region>
+<region default="Footer" contents="Footer"><div class="footer">
+</div></region></div></region>

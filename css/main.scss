@@ -178,14 +178,13 @@ li,ul {
     list-style: none
 }
 
-a img {
-    border: none
-}
-
 a {
     text-decoration: none;
     font-weight: 400;
     font-family: $FONT;
+    img {
+        border: none;
+    }
 }
 
 :active,:focus {
@@ -242,16 +241,77 @@ div.clear {
 
 .home-page .about-list {
     font-family: $FONT;
+    .aboutlist_container.container {
+        *zoom: 1;
+        display: block;
+        max-width: 940px;
+        margin: 0 auto;
+        width: 80%;
+        padding: 110px 0 50px 2%;
+        p {
+            color: #888;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 2.3em;
+            margin-left: 50px;
+            max-width: 100%;
+            text-align: justify;
+            a {
+                color: #78b7bb;
+            }
+        }
+        h4 {
+            color: #484652;
+            padding: 10px 0 25px 50px;
+            font-weight: 300;
+            font-size: 1.5em;
+        }
+        ul.synonyms {
+            display: none;
+        }
+        img {
+            width: 35px;
+            height: 45px;
+            display: block;
+            float: left;
+        }
+        img.mobile {
+            display: none;
+        }
+        .top-row {
+            *zoom: 1;
+            .top_left {
+                width: 46%;
+                display: block;
+                float: left;
+                margin: 0 8% 30px 0;
+            }
+            .top_right {
+                width: 46%;
+                display: block;
+                float: right;
+                margin: 0;
+            }
+        }
+        .bottom-row {
+            *zoom: 1;
+            margin-top: 40px;
+            .bot_left {
+                width: 46%;
+                display: block;
+                float: left;
+                margin: 0 8% 30px 0;
+            }
+            .bot_right {
+                width: 46%;
+                display: block;
+                float: right;
+                margin: 0;
+            }
+        }
+    }
 }
 
-.home-page .about-list .aboutlist_container.container {
-    *zoom: 1;
-    display: block;
-    max-width: 940px;
-    margin: 0 auto;
-    width: 80%;
-    padding: 110px 0 50px 2%
-}
 
 .home-page .about-list .aboutlist_container.container:after,.home-page .about-list .aboutlist_container.container:before {
     display: table;
@@ -261,46 +321,6 @@ div.clear {
 
 .home-page .about-list .aboutlist_container.container:after {
     clear: both
-}
-
-.home-page .about-list .aboutlist_container.container p {
-    color: #888;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 2.3em;
-    margin-left: 50px;
-    max-width: 100%;
-    text-align: justify
-}
-
-.home-page .about-list .aboutlist_container.container p a {
-    color: #78b7bb
-}
-
-.home-page .about-list .aboutlist_container.container h4 {
-    color: #484652;
-    padding: 10px 0 25px 50px;
-    font-weight: 300;
-    font-size: 1.5em
-}
-
-.home-page .about-list .aboutlist_container.container ul.synonyms {
-    display: none
-}
-
-.home-page .about-list .aboutlist_container.container img {
-    width: 35px;
-    height: 45px;
-    display: block;
-    float: left
-}
-
-.home-page .about-list .aboutlist_container.container img.mobile {
-    display: none
-}
-
-.home-page .about-list .aboutlist_container.container .top-row {
-    *zoom: 1
 }
 
 .home-page .about-list .aboutlist_container.container .top-row:after,.home-page .about-list .aboutlist_container.container .top-row:before {
@@ -313,25 +333,6 @@ div.clear {
     clear: both
 }
 
-.home-page .about-list .aboutlist_container.container .top-row .top_left {
-    width: 46%;
-    display: block;
-    float: left;
-    margin: 0 8% 30px 0
-}
-
-.home-page .about-list .aboutlist_container.container .top-row .top_right {
-    width: 46%;
-    display: block;
-    float: right;
-    margin: 0
-}
-
-.home-page .about-list .aboutlist_container.container .bottom-row {
-    *zoom: 1;
-    margin-top: 40px
-}
-
 .home-page .about-list .aboutlist_container.container .bottom-row:after,.home-page .about-list .aboutlist_container.container .bottom-row:before {
     display: table;
     line-height: 0;
@@ -342,47 +343,33 @@ div.clear {
     clear: both
 }
 
-.home-page .about-list .aboutlist_container.container .bottom-row .bot_left {
-    width: 46%;
-    display: block;
-    float: left;
-    margin: 0 8% 30px 0
-}
-
-.home-page .about-list .aboutlist_container.container .bottom-row .bot_right {
-    width: 46%;
-    display: block;
-    float: right;
-    margin: 0
-}
-
 @media screen and (max-width: 1000px) {
-    .home-page .about-list img {
-        width:25px;
-        height: auto;
-        padding-top: 7px
-    }
-
-    .home-page .about-list .aboutlist_container.container h4 {
-        font-size: 1.5em;
-        width: 100%;
-        font-weight: 300;
-        text-align: left;
-        margin-bottom: 10px
-    }
-
-    .home-page .about-list .aboutlist_container.container p {
-        text-align: justify
-    }
-
-    .home-page .about-list .aboutlist_container.container .bottom-row {
-        margin-top: 0
-    }
-
-    .home-page .about-list .aboutlist_container.container .bottom-row .bot_left,.home-page .about-list .aboutlist_container.container .bottom-row .bot_right,.home-page .about-list .aboutlist_container.container .top-row .top_left,.home-page .about-list .aboutlist_container.container .top-row .top_right {
-        float: none;
-        width: 90%;
-        margin: 0 auto 50px
+    .home-page .about-list {
+        img {
+            width:25px;
+            height: auto;
+            padding-top: 7px
+        }
+        .aboutlist_container.container {
+            h4 {
+                font-size: 1.5em;
+                width: 100%;
+                font-weight: 300;
+                text-align: left;
+                margin-bottom: 10px;
+            }
+            p {
+                text-align: justify
+            }
+            .bottom-row {
+                margin-top: 0;
+                .bot_left,.home-page .about-list .aboutlist_container.container .bottom-row .bot_right,.home-page .about-list .aboutlist_container.container .top-row .top_left,.home-page .about-list .aboutlist_container.container .top-row .top_right {
+                    float: none;
+                    width: 90%;
+                    margin: 0 auto 50px;
+                }
+            }
+        }
     }
 
     .home-page .about-list .aboutlist_container.container .bottom-row .bot_left p,.home-page .about-list .aboutlist_container.container .bottom-row .bot_right p,.home-page .about-list .aboutlist_container.container .top-row .top_left p,.home-page .about-list .aboutlist_container.container .top-row .top_right p {
@@ -748,14 +735,6 @@ div.clear {
     cursor: pointer
 }
 
-.home-page .projects .project_container.container .project-archive-link:hover span {
-    font-weight: 600;
-    -webkit-transition: all .25s;
-    -moz-transition: all .25s;
-    -o-transition: all .25s;
-    transition: all .25s
-}
-
 .home-page .projects .project_container.container .project-archive-link span {
     color: #809ba4;
     line-height: 2em;
@@ -1078,37 +1057,39 @@ div.clear {
 .home-page .team {
     font-family: $FONT;
     background-color: #282732
+    h1 {
+        color: #fff;
+        font-weight: 300;
+        font-size: 2.4em
+    }
+    h3 {
+        color: #78b7bb;
+        font-size: 1.5em;
+        font-weight: 300;
+        font-family: $FONT;
+    }
+    p {
+        font-family: $FONT;
+        font-size: 1.1em;
+        text-align: left;
+        margin-top: -4px
+    }
+    span {
+        font-weight: 700;
+        font-size: .8em
+    }
+    .heading {
+        *zoom: 1;
+        margin-bottom: 55px
+    }
+    .team-region {
+        *zoom: 1;
+        text-align: center;
+        padding: 100px 0 75px;
+        color: #fff
+    }
 }
 
-.home-page .team h1 {
-    color: #fff;
-    font-weight: 300;
-    font-size: 2.4em
-}
-
-.home-page .team h3 {
-    color: #78b7bb;
-    font-size: 1.5em;
-    font-weight: 300;
-    font-family: $FONT;
-}
-
-.home-page .team p {
-    font-family: $FONT;
-    font-size: 1.1em;
-    text-align: left;
-    margin-top: -4px
-}
-
-.home-page .team span {
-    font-weight: 700;
-    font-size: .8em
-}
-
-.home-page .team .heading {
-    *zoom: 1;
-    margin-bottom: 55px
-}
 
 .home-page .team .heading:after,.home-page .team .heading:before {
     display: table;
@@ -1118,13 +1099,6 @@ div.clear {
 
 .home-page .team .heading:after {
     clear: both
-}
-
-.home-page .team .team-region {
-    *zoom: 1;
-    text-align: center;
-    padding: 100px 0 75px;
-    color: #fff
 }
 
 .home-page .team .team-region:after,.home-page .team .team-region:before {

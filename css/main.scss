@@ -178,14 +178,13 @@ li,ul {
     list-style: none
 }
 
-a img {
-    border: none
-}
-
 a {
     text-decoration: none;
     font-weight: 400;
     font-family: $FONT;
+    img {
+        border: none;
+    }
 }
 
 :active,:focus {
@@ -1078,37 +1077,39 @@ div.clear {
 .home-page .team {
     font-family: $FONT;
     background-color: #282732
+    h1 {
+        color: #fff;
+        font-weight: 300;
+        font-size: 2.4em
+    }
+    h3 {
+        color: #78b7bb;
+        font-size: 1.5em;
+        font-weight: 300;
+        font-family: $FONT;
+    }
+    p {
+        font-family: $FONT;
+        font-size: 1.1em;
+        text-align: left;
+        margin-top: -4px
+    }
+    span {
+        font-weight: 700;
+        font-size: .8em
+    }
+    .heading {
+        *zoom: 1;
+        margin-bottom: 55px
+    }
+    .team-region {
+        *zoom: 1;
+        text-align: center;
+        padding: 100px 0 75px;
+        color: #fff
+    }
 }
 
-.home-page .team h1 {
-    color: #fff;
-    font-weight: 300;
-    font-size: 2.4em
-}
-
-.home-page .team h3 {
-    color: #78b7bb;
-    font-size: 1.5em;
-    font-weight: 300;
-    font-family: $FONT;
-}
-
-.home-page .team p {
-    font-family: $FONT;
-    font-size: 1.1em;
-    text-align: left;
-    margin-top: -4px
-}
-
-.home-page .team span {
-    font-weight: 700;
-    font-size: .8em
-}
-
-.home-page .team .heading {
-    *zoom: 1;
-    margin-bottom: 55px
-}
 
 .home-page .team .heading:after,.home-page .team .heading:before {
     display: table;
@@ -1118,13 +1119,6 @@ div.clear {
 
 .home-page .team .heading:after {
     clear: both
-}
-
-.home-page .team .team-region {
-    *zoom: 1;
-    text-align: center;
-    padding: 100px 0 75px;
-    color: #fff
 }
 
 .home-page .team .team-region:after,.home-page .team .team-region:before {

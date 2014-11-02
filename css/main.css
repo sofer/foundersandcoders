@@ -277,8 +277,8 @@ div.clear {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 .home-page .tagline .tagline_container.container img {
   width: 30%;
@@ -289,20 +289,21 @@ div.clear {
 .home-page .tagline .tagline_container.container h1 {
   margin-top: 20px;
   padding: 10px 0 20px;
-  font-size: 2.5em;
+  font-size: 4vw;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
 }
 .home-page .tagline .tagline_container.container p {
   margin-top: 20px;
   font-family: "Source Sans Pro", sans-serif;
   color: #fff;
-  font-size: 1.7em;
+  font-size: 2vw;
+  font-weight: 400;
 }
 .home-page .tagline .tagline_container.container .outer {
   position: relative;
-  top: 100px;
-  left: 50%;
+  top: 12vw;
+  left: 47%;
 }
 .home-page .tagline .tagline_container.container .outer .bouncing {
   position: absolute;
@@ -315,32 +316,32 @@ div.clear {
 }
 .home-page .tagline .tagline_container.container .outer .bouncing .glyphicon {
   color: #ffffff;
-  font-size: 200%;
+  font-size: 5vw;
 }
 .home-page .team {
   font-family: "Source Sans Pro", sans-serif;
   background: url(../img/group.jpg) no-repeat center center;
   background-size: cover;
-  height: 60vw;
+  height: 57vw;
 }
 .home-page .team .team-region {
   *zoom: 1;
-  text-align: center;
-  padding: 100px 0 75px;
-  color: #fff;
+  text-align: right;
+  padding-top: 42vw;
 }
 .home-page .team .team-region .heading {
   *zoom: 1;
   margin-bottom: 55px;
 }
 .home-page .team .team-region .heading h1 {
-  color: #fff;
-  font-weight: 300;
-  font-size: 2.4em;
+  color: #1C9099;
+  font-weight: 400;
+  font-size: 4vw;
 }
 .home-page .team .team-region .heading h3 {
-  color: #78b7bb;
-  font-size: 1.5em;
+  padding-top: 2vw;
+  color: #ffffff;
+  font-size: 2vw;
   font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -354,7 +355,7 @@ div.clear {
 }
 .home-page .about-list .aboutlist_container p {
   color: #888;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 2.3em;
   text-align: justify;
@@ -366,24 +367,23 @@ div.clear {
   color: #484652;
   font-weight: 300;
   font-size: 1.5em;
-}
-.home-page .about-list .aboutlist_container ul.synonyms {
-  display: none;
+  padding: 0.3em 0 0.5em 0;
 }
 .home-page .about-list .aboutlist_container img {
   width: 45px;
   height: auto;
   display: block;
   float: left;
+  margin-right: 10px;
 }
 .home-page .about-list .aboutlist_container .top-row {
   *zoom: 1;
 }
 .home-page .about-list .aboutlist_container .top-row #topOne {
-  padding: 50px;
+  padding: 9vw 5vw 9vw 9vw;
 }
 .home-page .about-list .aboutlist_container .top-row #topTwo {
-  padding: 50px;
+  padding: 9vw 9vw 9vw 5vw;
 }
 .home-page .brands {
   font-family: "Source Sans Pro", sans-serif;

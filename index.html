@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!-- HomePage -->
 
 <region template="Body" contents="Body"><div><region data-id="content" default="HomePage" contents="HomePage"><div class="home-page">
 	<!-- LOADING STATE -->
@@ -10,110 +11,60 @@ layout: default
 	<!-- BANNER SECTION -->
 	<div class="tagline">
 		<div class="tagline_container container">
-			<img src="/camdenlogo.png">
 			<h1>Web. Node.js. D3. Realtime.</h1>
 			<p>We build brilliant web sites and features on efficient platforms at affordable prices.</p>
 			<!-- this needs editing -->
 		</div>
 	</div>
 
-	<!-- PROJECTS WITH PICTURE-->
+	<!-- PROJECTS WITH PICTURE Will go here-->
 	<div class="projects">
-		<div class="project_container container">
-
-			<!-- PHOTO RECTANGLE -->
-			<div class="two-column">
-				<div class="column left">
-					<!-- SAILS -->
-					<div class="project sails" data-portfolioview="PortfolioSails" data-mast-events="click">
-						<img class="project-photo" alt="Illustration mapping global mobile phone usage and internet connection" title="" src="/d3phoneusagemap.png" width="580" height="300">
-						<!-- DESCRIPTION -->
-						<div class="hover-description">
-							<span><h4>D3</h4>High-powered data visualization</span>
-						</div>
-					</div>
-				<div class="column right">
-					<!-- OLYMPUS -->
-					<div class="project olympus" data-portfolioview="PortfolioiOffice" data-mast-events="click">
-						<img alt="a smartphone with a file-sharing app on the screen" class="project-photo" src="/img/bbc-app.jpg">
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 	<!-- LINK FOR ABOUT US SECTION -->
 	<a name="about" id="about"></a>
 
 	<!-- LIST OF STUFF ABOUT US -->
 	<div class="about-list">
-		<div class="aboutlist_container container">
-				<div class="top-row">
-					<div class="top_left">
-						<img src="/camdenlogo.png" width="45" height="45">
-						<h4>Sharpest Tools in the Shed</h4>
-						<p>We understand web applications need to run smoothly, load quickly and handle large amounts of data efficiently. Like Yahoo!, Paypal, eBay, and Uber, we love Node.js. Node is a powerful technology used to create efficient and scalable network applications. If you don't understand what this means, don't worry because we stay on top of the latest tech movements so you don't have to. Whether you want to add a new social media feed or manage your customer database, we'll pick the best systems to use so the result are always powerful applications with clean and maintainable code.</p>
-						<!-- This should be about how well everything works.  -->
-					</div>
-					<div class="top_right">
-						<img src="/camdenlogo.png" width="45" height="45">
-						<h4>Hey Good Lookin'</h4>
-						<p>It’s not easy being beautiful. Fortunately, we are here to make sure users enjoy visiting your site and understand easily how to use it. We’ve got powerful templates and style editors, including Bootstrap and Sass, that quickly get you looking your best and allow for painless styling changes across anything we build for you. Using D3 we create beautiful, interactive data visualisation for your site. Everything we make can be optimised across a full range of computer, mobile and tablet devices. We are happy to help you to create new style guides or to work following existing ones.</p>
-						<!-- This shoudl be about how good it looks. -->
-					</div>
+		<div class="aboutlist_container container-fluid">
+			<div class="top-row row">
+				<div class="col-md-1"></div>
+				<div class="col-xs-12 col-sm-6 col-md-5" id="topOne">
+					<img src="/img/camdenlogo.png">
+					<h4>Sharpest Tools in the Shed</h4>
+					<p>We understand web applications need to run smoothly, load quickly and handle large amounts of data efficiently. Like Yahoo!, Paypal, eBay, and Uber, we love Node.js. Node is a powerful technology used to create efficient and scalable network applications. If you don't understand what this means, don't worry because we stay on top of the latest tech movements so you don't have to. Whether you want to add a new social media feed or manage your customer database, we'll pick the best systems to use so the result are always powerful applications with clean and maintainable code.</p>
+					<!-- This should be about how well everything works.  -->
 				</div>
-			<div class="bottom-row">
-				<div>
-					<img src="/camdenlogo.png" width="45" height="45">
-					<h4>Camden Collective</h4>
-					<p>Founders & Coders is supported by Camden Collective, a creative community providing workspace and logistical support for over 100 creative businesses and entrepreneurs in the heart of Camden Town. Camden Collective provides an amazing pool of creative and technical talent within arm's reach. This resource increases our flexibility, and we like to believe operating in this habitat imbues our work with a little extra sparkle! Camden Collective is supported by Camden Town Unlimited, the progressive and pioneering Business Improvement District for Camden Town. </p>
+				<div class="col-xs-12 col-sm-6 col-md-5" id="topTwo">
+					<img src="/img/camdenlogo.png">
+					<h4>Hey Good Lookin'</h4>
+					<p>It’s not easy being beautiful. Fortunately, we are here to make sure users enjoy visiting your site and understand easily how to use it. We’ve got powerful templates and style editors, including Bootstrap and Sass, that quickly get you looking your best and allow for painless styling changes across anything we build for you. Using D3 we create beautiful, interactive data visualisation for your site. Everything we make can be optimised across a full range of computer, mobile and tablet devices. We are happy to help you to create new style guides or to work following existing ones.</p>
+					<!-- This shoudl be about how good it looks. -->
 				</div>
-
-
 			</div>
 		</div>
 	</div>
-
-	<!--LINK FOR SMALL SCREENS-->
-	<div class="projects mobile">
-		<div class="mobile-archive-link project_container container">
-			<div class="project-archive-link project" data-mast-events="click">
-				<span>Browse all our projects</span>
-				<img src="img/button_add@2x.jpg">
-			</div>
-		</div>
-	</div>
-
-<style type="text/css">
-	.top-row-1 {
-		margin-left: 80px;
-		overflow: auto;
-		margin-bottom: 50px;
-	}
-
-	.top-row-1 div {
-		float: left;
-		padding-left: 100px;
-	}
-</style>
-
 
 	<!-- CLIENTS SECTION -->
-	<div class="clients">
-		<div class="logo-region">
-			<h2>Some of our happy clients</h2>
-			<div class="client-logos">
-				<div class="top-row-1">
-					<div><img width="150px" src="img/hapi.png"></div>
-					<div><img width="150px" src="img/javascript.png"></div>
-					<div><img width="250px" src="img/nodejswhite.png"></div>
+	<div class="brands">
+		<div class="logo-region container-fluid">
+			<div class="brand-logos row">
+				<div class="col-xs-6 col-sm-4 col-md-4 hapi text-center">
+					<img width="150px" src="img/brandlogos/hapi.png">
 				</div>
-				<div style="padding-left:15%;" class="top-row-1">
-					<div><img width="150px" src="img/sass2.png"></div>
-					<div><img width="150px" src="img/d3.png"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4 javascript text-center">
+					<img width="150px" src="img/brandlogos/javascript.png">
 				</div>
-				<div style="padding-left:8%;" class="top-row-1">
-					<div><img width="250px" src="img/cc.png"></div>
-					<div><img width="250px" src="img/ctu.png"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4 nodejs text-center">
+					<img width="250px" src="img/brandlogos/nodejswhite.png">
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4 sass text-center">
+					<img width="150px" src="img/brandlogos/sass.png">
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4 d3 text-center">
+					<img width="150px" src="img/brandlogos/d3.png">
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4 ctu text-center">
+					<img width="250px" src="img/brandlogos/ctu.png">
 				</div>
 			</div>
 		</div>
@@ -123,8 +74,8 @@ layout: default
 	</div>
 
 	<!-- TEAM SECTION -->
-		<a name="team" id="team"></a>
-		<div class="team">
+	<a name="team" id="team"></a>
+	<div class="team">
 		<div class="team-region">
 			<div class="container">
 				<div class="heading">
@@ -136,8 +87,6 @@ layout: default
 			</div>
 		</div>
 	</div>
-
-
 
 <!-- These are on every page. -->
 <region default="Contact" contents="Contact"><div class="contact" data-mast-events="click">

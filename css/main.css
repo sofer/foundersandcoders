@@ -267,30 +267,10 @@ div.clear {
     animation-timing-function: ease-in;
   }
 }
-.outer {
-  position: relative;
-  top: 100px;
-  left: 50%;
-}
-
-.bouncing {
-  position: absolute;
-  -webkit-animation-name: bounce;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 2s;
-  animation-name: bounce;
-  animation-iteration-count: infinite;
-  animation-duration: 2s;
-}
-.bouncing .glyphicon {
-  color: #ffffff;
-  font-size: 200%;
-}
-
 .home-page .tagline {
   font-family: "Source Sans Pro", sans-serif;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   background-color: #265b7d;
 }
 .home-page .tagline .tagline_container.container {
@@ -318,6 +298,51 @@ div.clear {
   font-family: "Source Sans Pro", sans-serif;
   color: #fff;
   font-size: 1.7em;
+}
+.home-page .tagline .tagline_container.container .outer {
+  position: relative;
+  top: 100px;
+  left: 50%;
+}
+.home-page .tagline .tagline_container.container .outer .bouncing {
+  position: absolute;
+  -webkit-animation-name: bounce;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+.home-page .tagline .tagline_container.container .outer .bouncing .glyphicon {
+  color: #ffffff;
+  font-size: 200%;
+}
+.home-page .team {
+  font-family: "Source Sans Pro", sans-serif;
+  background: url(../img/group.jpg) no-repeat center center;
+  background-size: cover;
+  height: 60vw;
+}
+.home-page .team .team-region {
+  *zoom: 1;
+  text-align: center;
+  padding: 100px 0 75px;
+  color: #fff;
+}
+.home-page .team .team-region .heading {
+  *zoom: 1;
+  margin-bottom: 55px;
+}
+.home-page .team .team-region .heading h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.4em;
+}
+.home-page .team .team-region .heading h3 {
+  color: #78b7bb;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .home-page .about-list {
   font-family: "Source Sans Pro", sans-serif;
@@ -397,40 +422,6 @@ div.clear {
   width: 100px;
   height: auto;
   padding-bottom: 50px;
-}
-
-.home-page .team {
-  font-family: "Source Sans Pro", sans-serif;
-  background-color: #282732 h1;
-  background-color-color: #fff;
-  background-color-font-weight: 300;
-  background-color-font-size: 2.4em;
-}
-.home-page .team h3 {
-  color: #78b7bb;
-  font-size: 1.5em;
-  font-weight: 300;
-  font-family: "Source Sans Pro", sans-serif;
-}
-.home-page .team p {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.1em;
-  text-align: left;
-  margin-top: -4px;
-}
-.home-page .team span {
-  font-weight: 700;
-  font-size: 0.8em;
-}
-.home-page .team .heading {
-  *zoom: 1;
-  margin-bottom: 55px;
-}
-.home-page .team .team-region {
-  *zoom: 1;
-  text-align: center;
-  padding: 100px 0 75px;
-  color: #fff;
 }
 
 .home-page .team .heading:after, .home-page .team .heading:before {

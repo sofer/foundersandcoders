@@ -271,33 +271,12 @@ div.clear {
     }
   }
 
-.outer {
-    position: relative;
-    top: 100px;
-    left: 50%;
-}
-.bouncing {
-    position: absolute;
-
-    -webkit-animation-name: bounce;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 2s;
-
-    animation-name: bounce;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-    .glyphicon {
-        color: #ffffff;
-        font-size: 200%;
-    }
-}
-
 .home-page {
     // tagline starts here
     .tagline {
         font-family: $FONT;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 75px;
+        padding-bottom: 75px;
         background-color: #265b7d;
         .tagline_container.container {
             width: 80%;
@@ -323,6 +302,51 @@ div.clear {
                 font-family: $FONT;
                 color: #fff;
                 font-size: 1.7em;
+            }
+            .outer {
+                position: relative;
+                top: 100px;
+                left: 50%;
+                .bouncing {
+                    position: absolute;
+                    -webkit-animation-name: bounce;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-duration: 2s;
+                    animation-name: bounce;
+                    animation-iteration-count: infinite;
+                    animation-duration: 2s;
+                    .glyphicon {
+                        color: #ffffff;
+                        font-size: 200%;
+                    }
+                }
+            }
+        }
+    }
+    .team {
+        font-family: $FONT;
+        background: url(../img/group.jpg) no-repeat center center;
+        background-size: cover;
+        height: 60vw;
+        .team-region {
+            *zoom: 1;
+            text-align: center;
+            padding: 100px 0 75px;
+            color: #fff;
+            .heading {
+                *zoom: 1;
+                margin-bottom: 55px;
+                h1 {
+                    color: #fff;
+                    font-weight: 300;
+                    font-size: 2.4em
+                }
+                h3 {
+                    color: #78b7bb;
+                    font-size: 1.5em;
+                    font-weight: 300;
+                    font-family: $FONT;
+                }
             }
         }
     }
@@ -368,6 +392,7 @@ div.clear {
             }
         }
     }
+    //branch logos section here
     .brands {
         font-family: $FONT;
         background-color: #78b7bb;
@@ -419,42 +444,6 @@ div.clear {
                 }
             }
         }
-    }
-}
-
-.home-page .team {
-    font-family: $FONT;
-    background-color: #282732
-    h1 {
-        color: #fff;
-        font-weight: 300;
-        font-size: 2.4em
-    }
-    h3 {
-        color: #78b7bb;
-        font-size: 1.5em;
-        font-weight: 300;
-        font-family: $FONT;
-    }
-    p {
-        font-family: $FONT;
-        font-size: 1.1em;
-        text-align: left;
-        margin-top: -4px
-    }
-    span {
-        font-weight: 700;
-        font-size: .8em
-    }
-    .heading {
-        *zoom: 1;
-        margin-bottom: 55px
-    }
-    .team-region {
-        *zoom: 1;
-        text-align: center;
-        padding: 100px 0 75px;
-        color: #fff
     }
 }
 

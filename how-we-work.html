@@ -2,25 +2,30 @@
 layout: default
 ---
 
-		<!-- The content of our app -->
-		<region template="Body" contents="Body"><div><region data-id="content" default="HomePage" contents="HomePage"><div class="process-page" style="display: block;">
+<!-- The content of our app -->
+<region template="Body" contents="Body"><div><region data-id="content" default="HomePage" contents="HomePage"><div class="process-page" style="display: block;">
 
-	<div class="process-heading">
-		<div class="container">
-			<h1>The Full Monty</h1>
-			<h2>Our workflow means you have a functioning prototype quickly so you know what is effective sooner and can have continuous, reflective input throughout the process.</h2>
-			<img class="process-img" src="/img/process.png">
+	<div class="process-heading container-fluid">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1>The Full Monty</h1>
+				<h2>Our workflow means you have a functioning prototype quickly so you know what is effective sooner and can have continuous, reflective input throughout the process.</h2>
+				<img src="/img/process.png">
+			</div>
 		</div>
 	</div>
-	<div class="step-one">
-		<div class="text-container-one">
-			<p class="one">
-				<span>Flawless Frontend Development
-				</span><br></br>
-					Beautiful, easy-to-use websites aren’t always easy to create. With [Wil], the team will work with you to craft an effective website that’s both easy on the eyes and easy on your wallet. Your website will look gorgeous on all types of devices, thanks to our skills with modern CSS frameworks like Bootstrap and Foundation. Dynamic data visualization is a snap with D3, while other JavaScript libraries like jQuery, Underscore, and Angular make your website wow.</p>
-		</div>
-		<div class="image-container-one">
-			<img class="exploded-iphone" src="/iphoneinprocess.png">
+	<div class="step-one container">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-sm-6 col-md-5 text">
+			<h1>Flawless Frontend Development</h1>
+					<p>Beautiful, easy-to-use websites aren’t always easy to create. With [Wil], the team will work with you to craft an effective website that’s both easy on the eyes and easy on your wallet. Your website will look gorgeous on all types of devices, thanks to our skills with modern CSS frameworks like Bootstrap and Foundation. Dynamic data visualization is a snap with D3, while other JavaScript libraries like jQuery, Underscore, and Angular make your website wow.</p>
+			</div>
+			<div class="col-xs-2"></div>
+			<div class="col-xs-8 col-sm-6 col-md-5">
+				<img src="/img/iphoneinprocess.png">
+			</div>
 		</div>
 	</div>
 	<div class="step-two">
@@ -37,31 +42,19 @@ layout: default
 		</div>
 		<img src="img/testing.png" height="50%" width="50%">
 	</div>
-
-
-		<!--TEMPLATES-->
-		<script type="text/javascript" src="/jst.js"></script>
-		<!--TEMPLATES END-->
-
-		<!--SCRIPTS-->
-		<script src="/min/production.js"></script>
-		<!--SCRIPTS END-->
-
-
-		<script type="text/javascript">
-		 // Modify JST templates to eliminate the nasty parts of the file path
-			_.each(JST, function (fn, path) {
-				var id = path.match(/\/([^\/]+)\..+$/)[1];
-				Mast.templates[id] = fn;
-			});
-				Mast.logLevel = 'warn';
-				Mast.raise();
-
-				// Only switch to home page if we are on some weird page thats not one of these hashes
-				if (window.location.hash === '' || window.location.hash === 'process' ||
-						window.location.hash === 'portfolio') {
-						console.log(window.location.hash);
-						window.location.hash = '!home';
-				}
-		</script>
-
+<!-- These are on every page. -->
+<region default="Contact" contents="Contact"><div class="contact" data-mast-events="click">
+	<!-- Link to this part of the page -->
+	<a name="contact"></a>
+	<div class="contact-region clearfix">
+		<div class="container">
+			<div class="form-heading">
+				<h1>HIRE US!</h1>
+				<h3>Drop us an email on<br><br><span>email@pleasechangeme.address<span><br><br>and get involved!</h3>
+				<!-- <h3>Let&apos;s talk about your project! Have an existing team? No problem.</br> We position your team to succeed when we hand over the torch.</h3> -->
+			</div>
+		</div>
+	</div>
+</div></region>
+<region default="Footer" contents="Footer"><div class="footer">
+</div></region></div></region>

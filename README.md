@@ -1,4 +1,4 @@
-camdev
+Founders and Coders
 ======
 
-Repository for CamDev site
+Repository for Founders&Coders site

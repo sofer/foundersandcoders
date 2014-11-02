@@ -250,19 +250,61 @@ div.clear {
 
 // home-page styling below
 
+@-webkit-keyframes bounce {
+    from, to  {
+      bottom: 0;
+      -webkit-animation-timing-function: ease-out;
+    }
+    50% {
+      bottom: 20px;
+      -webkit-animation-timing-function: ease-in;
+    }
+  }
+  @keyframes bounce {
+    from, to  {
+      botttom: 0;
+      animation-timing-function: ease-out;
+    }
+    50% {
+      bottom: 20px;
+      animation-timing-function: ease-in;
+    }
+  }
+
+.outer {
+    position: relative;
+    top: 100px;
+    left: 50%;
+}
+.bouncing {
+    position: absolute;
+
+    -webkit-animation-name: bounce;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    .glyphicon {
+        color: #ffffff;
+        font-size: 200%;
+    }
+}
+
 .home-page {
     // tagline starts here
     .tagline {
         font-family: $FONT;
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color: #5a90b2;
+        background-color: #265b7d;
         .tagline_container.container {
             width: 80%;
             margin: 0 auto;
             text-align: center;
-            padding-top: 0px;
-            padding-bottom: 20px;
+            padding-top: 100px;
+            padding-bottom: 100px;
             img {
                 width: 30%;
                 height: auto;
@@ -270,12 +312,14 @@ div.clear {
                 padding-bottom: 15px;
             }
             h1 {
+                margin-top: 20px;
                 padding: 10px 0 20px;
                 font-size: 2.5em;
                 color: #fff;
                 font-weight: 300;
             }
             p {
+                margin-top: 20px;
                 font-family: $FONT;
                 color: #fff;
                 font-size: 1.7em;

@@ -246,6 +246,45 @@ div.clear {
     position: fixed;
     width: 100%;
     z-index: 1;
+    border-radius: 0;
+    background-color: #ffffff;
+    height: 5vw;
+    font-family: $FONT;
+    .collapsed {
+        text-decoration: none;
+            padding: 0;
+            border: none;
+            box-shadow: none;
+        .navtoggleimg {
+            height: auto;
+            width: 40px;
+            text-decoration: none;
+        }
+    }
+    .navtoggleimg {
+        height: auto;
+        width: 30px;
+        text-decoration: none;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+    .navbar-brand {
+        padding: 0px 15px;
+        margin-top: 2vw;
+        font-size: 20px;
+        color: #265b7d;
+    }
+    .navbar-collapse {
+        .navbar-li {
+            a {
+                padding: 0px 15px;
+                margin-top: 2.5vw;
+                font-size: 16px;
+                color: #265b7d;
+            }
+        }
+    }
 }
 
 // home-page styling below

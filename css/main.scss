@@ -484,7 +484,7 @@ div.clear {
         height: 100%;
         background: #27285a;
         .row {
-            padding-top: 15vw;
+            padding-top: 10vw;
             text-align: center;
             h1 {
             font-size: 32px;
@@ -583,9 +583,13 @@ div.clear {
             color: #fff;
             margin-bottom: 5vw;
         }
-        img {
-            width: 100%;
-            padding-top: 10vw;
+        .testingimgContainer {
+            padding: 0px;
+            img {
+                width: 100%;
+                padding-top: 10vw;
+                margin-right: -10px;
+            }
         }
     }
 }

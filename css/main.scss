@@ -250,6 +250,7 @@ div.clear {
 
 // home-page styling below
 
+//styling below is for bounce feature
 @-webkit-keyframes bounce {
     from, to  {
       bottom: 0;
@@ -272,18 +273,16 @@ div.clear {
   }
 
 .home-page {
-    // tagline starts here
+    // landing page starts here
     .tagline {
         font-family: $FONT;
-        padding-top: 75px;
-        padding-bottom: 75px;
         background-color: #265b7d;
         .tagline_container.container {
             width: 80%;
             margin: 0 auto;
             text-align: center;
-            padding-top: 10vw;
-            padding-bottom: 10vw;
+            padding-top: 12vw;
+            padding-bottom: 15vw;
             img {
                 width: 30%;
                 height: auto;
@@ -324,6 +323,7 @@ div.clear {
             }
         }
     }
+    //picture of team goes here.
     .team {
         font-family: $FONT;
         background: url(../img/group.jpg) no-repeat center center;
@@ -445,161 +445,6 @@ div.clear {
             }
         }
     }
-}
-
-
-.home-page .team .heading:after,.home-page .team .heading:before {
-    display: table;
-    line-height: 0;
-    content: ""
-}
-
-.home-page .team .heading:after {
-    clear: both
-}
-
-.home-page .team .team-region:after,.home-page .team .team-region:before {
-    display: table;
-    line-height: 0;
-    content: ""
-}
-
-.home-page .team .team-region:after {
-    clear: both
-}
-
-.home-page .team .team-region .special {
-    font-size: 1em;
-    font-weight: 300;
-    color: #78b7bb
-}
-
-.home-page .team .the-team {
-    *zoom: 1;
-    background-image: url(/img/image_map.png);
-    padding: 20px 0;
-    background-repeat: no-repeat;
-    background-position: left center;
-    width: 95%;
-    max-width: 1100px;
-    margin: 0 auto
-}
-
-.home-page .team .the-team:after,.home-page .team .the-team:before {
-    display: table;
-    line-height: 0;
-    content: ""
-}
-
-.home-page .team .the-team:after {
-    clear: both
-}
-
-.home-page .team .the-team .map {
-    *zoom: 1;
-    background-image: url(/img/image_map.png);
-    height: 376px;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 100%
-}
-
-.home-page .team .the-team .map:after,.home-page .team .the-team .map:before {
-    display: table;
-    line-height: 0;
-    content: ""
-}
-
-.home-page .team .the-team .map:after {
-    clear: both
-}
-
-.home-page .team .the-team .map.mobile {
-    display: none
-}
-
-.home-page .team .the-team .two-column {
-    width: 55%;
-    padding-left: 5%;
-    float: right
-}
-
-.home-page .team .the-team .two-column .column {
-    float: left;
-    width: 50%
-}
-
-.home-page .team .the-team .two-column a.mobile {
-    display: none
-}
-
-.home-page .team .the-team .two-column .team-member {
-    *zoom: 1;
-    width: 100%;
-    color: #fff;
-    padding: 20px 0
-}
-
-.home-page .team .the-team .two-column .team-member:after,.home-page .team .the-team .two-column .team-member:before {
-    display: table;
-    line-height: 0;
-    content: ""
-}
-
-.home-page .team .the-team .two-column .team-member:after {
-    clear: both
-}
-
-.home-page .team .the-team .two-column .team-member .photo {
-    height: 77px;
-    width: 77px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    float: left;
-    -webkit-transition: -webkit-filter 1000ms ease-in;
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-    filter: gray;
-    -webkit-filter: grayscale(0.8)
-}
-
-.home-page.loading .loading-overlay-container {
-    display: block
-}
-
-.home-page .loading-overlay-container {
-    display: none
-}
-
-.home-page .loading-overlay-container .loading-overlay {
-    position: fixed;
-    z-index: 50;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.8)
-}
-
-.home-page .loading-overlay-container .loading-text {
-    position: fixed;
-    top: 47%;
-    left: 47%;
-    z-index: 100
-}
-
-.home-page .loading-overlay-container .loading-text .spinner {
-    float: left
-}
-
-.home-page .loading-overlay-container .loading-text span {
-    float: left;
-    font-size: 1.2em;
-    font-weight: 300;
-    color: #fff;
-    width: 10%
-}
-
-.home-page.mobile-nav-expanded .topbar .topbar-region.container .nav-menu {
-    display: block
 }
 
 //CONTACT US HERE

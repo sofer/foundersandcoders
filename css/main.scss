@@ -624,7 +624,12 @@ div.clear {
         font-family: $FONT;
         line-height: 1.2
     }
+    .contact-region {
+        text-align: center;
+        padding: 75px 0;
+    }
 }
+
 
 //PROCESS PAGE STARTS HERE!
 
@@ -687,12 +692,10 @@ div.clear {
         }
     }
     .step-two {
-        padding-top: 75px;
+        height: 100%;
         background-color: #006b68;
-        .container {
-            width: 60%;
-        }
         h1 {
+            margin-top: 5vw;
             font-size: 32px;
             font-weight: 300;
             color: #75ad74;
@@ -700,7 +703,7 @@ div.clear {
             padding-bottom: 20px;
         }
         p {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 400;
             line-height: 2;
             color: #F7F2E0;
@@ -718,19 +721,9 @@ div.clear {
     }
     .step-three {
         background: #265b78;
-        padding-left: 15%;
-        .container {
-            padding: 250px 0;
-            width: 25%;
-            margin-left: 0;
-            float: left;
-        }
-        img {
-            float: left;
-            width: 75%;
-            height: auto;
-            max-width: 1200px;
-            padding: 180px 0 5%
+        height: 100%;
+        .text {
+            padding: 10vw 10vw 0 10vw;
         }
         h1 {
             font-size: 32px;
@@ -742,7 +735,12 @@ div.clear {
             font-size: 16px;
             font-weight: 400;
             line-height: 2;
-            color: #fff
+            color: #fff;
+            margin-bottom: 5vw;
+        }
+        img {
+            width: 100%;
+            padding-top: 10vw;
         }
     }
 }

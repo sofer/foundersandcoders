@@ -600,6 +600,10 @@ div.clear {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.2;
 }
+.contact .contact-region {
+  text-align: center;
+  padding: 75px 0;
+}
 
 .process-page {
   font-family: "Source Sans Pro", sans-serif;
@@ -661,13 +665,11 @@ div.clear {
   margin: 5vw;
 }
 .process-page .step-two {
-  padding-top: 75px;
+  height: 100%;
   background-color: #006b68;
 }
-.process-page .step-two .container {
-  width: 60%;
-}
 .process-page .step-two h1 {
+  margin-top: 5vw;
   font-size: 32px;
   font-weight: 300;
   color: #75ad74;
@@ -675,7 +677,7 @@ div.clear {
   padding-bottom: 20px;
 }
 .process-page .step-two p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 2;
   color: #F7F2E0;
@@ -692,20 +694,10 @@ div.clear {
 }
 .process-page .step-three {
   background: #265b78;
-  padding-left: 15%;
+  height: 100%;
 }
-.process-page .step-three .container {
-  padding: 250px 0;
-  width: 25%;
-  margin-left: 0;
-  float: left;
-}
-.process-page .step-three img {
-  float: left;
-  width: 75%;
-  height: auto;
-  max-width: 1200px;
-  padding: 180px 0 5%;
+.process-page .step-three .text {
+  padding: 10vw 10vw 0 10vw;
 }
 .process-page .step-three h1 {
   font-size: 32px;
@@ -718,6 +710,11 @@ div.clear {
   font-weight: 400;
   line-height: 2;
   color: #fff;
+  margin-bottom: 5vw;
+}
+.process-page .step-three img {
+  width: 100%;
+  padding-top: 10vw;
 }
 
 /*# sourceMappingURL=main.css.map */

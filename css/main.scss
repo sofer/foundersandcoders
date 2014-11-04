@@ -266,7 +266,7 @@ div.clear {
 //styling below is for kickstarter section
 
 .kickstarter {
-    height: 100vw;
+    height: 100vh;
     .share_box{
         position:fixed;
         width:50px;
@@ -330,10 +330,8 @@ div.clear {
         }
     }
     .container {
-        top: 30%;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
+        margin-top: 20vh;
         h1 {
           font-weight: 300;
           font-family: $FONT;
@@ -442,11 +440,11 @@ div.clear {
         font-family: $FONT;
         background: url(../img/group.jpg) no-repeat center center;
         background-size: cover;
-        height: 57vw;
+        height: 110vh;
         .team-region {
             *zoom: 1;
             text-align: right;
-            padding-top: 42vw;
+            padding-top: 60vh;
             .heading {
                 .heading-text-container {
                     background: rgba(0,0,0,0.7);
@@ -506,11 +504,21 @@ div.clear {
             .top-row {
                 *zoom: 1;
                 #topOne {
-                    padding: 9vw 5vw 9vw 9vw;
+                    padding: 9vw 4vw;
+                    margin: 0;
                 }
                 #topTwo {
-                    padding: 9vw 9vw 9vw 5vw;
+                    padding: 9vw 4vw;
                 }
+                #topThree {
+                    padding: 9vw 4vw;
+                    margin: 0;
+
+                }
+            }
+            .h4-givebBackToTheCommunity {
+                padding: 0.3em 0 1.5em 0;
+
             }
         }
     }

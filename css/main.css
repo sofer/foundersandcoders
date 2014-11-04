@@ -587,9 +587,10 @@ div.clear {
   text-align: center;
 }
 .process-page .process-heading .row h1 {
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 400;
   color: #fff;
+  padding-bottom: 1em;
 }
 .process-page .process-heading .row h2 {
   font-weight: 300;
@@ -601,7 +602,8 @@ div.clear {
 .process-page .process-heading .row img {
   margin-top: 5vw;
   margin-bottom: 5vw;
-  width: 100%;
+  width: 60%;
+  height: 60%;
 }
 .process-page .step-one {
   height: 100%;
@@ -613,8 +615,8 @@ div.clear {
   margin-top: 12vw;
 }
 .process-page .step-one h1 {
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 400;
   color: #fff;
   text-align: center;
 }
@@ -642,8 +644,8 @@ div.clear {
 }
 .process-page .step-two h1 {
   margin-top: 5vw;
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 400;
   color: #75ad74;
   text-align: center;
   padding-bottom: 20px;

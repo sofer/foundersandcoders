@@ -622,9 +622,10 @@ div.clear {
             padding-top: 10vw;
             text-align: center;
             h1 {
-            font-size: 32px;
-            font-weight: 300;
+            font-size: 60px;
+            font-weight: 400;
             color: #fff;
+            padding-bottom: 1em;
             }
             h2 {
             font-weight: 300;
@@ -632,11 +633,13 @@ div.clear {
             padding-top: 0;
             font-size: 22px;
             font-family: $FONT;
+
             }
             img {
                 margin-top: 5vw;
                 margin-bottom: 5vw;
-                width: 100%;
+                width: 60%;
+                height: 60%;
                 ;
             }
         }
@@ -650,8 +653,8 @@ div.clear {
             margin-top: 12vw;
         }
         h1 {
-            font-size: 32px;
-            font-weight: 300;
+            font-size: 40px;
+            font-weight: 400;
             color: #fff;
             text-align: center;
         }
@@ -679,8 +682,8 @@ div.clear {
         padding-bottom: 40px;
         h1 {
             margin-top: 5vw;
-            font-size: 32px;
-            font-weight: 300;
+            font-size: 40px;
+            font-weight: 400;
             color: #75ad74;
             text-align: center;
             padding-bottom: 20px;

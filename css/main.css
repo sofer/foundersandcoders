@@ -267,6 +267,7 @@ div.clear {
   width: 50px;
   top: 50px;
   padding: 15px;
+  z-index: 1;
 }
 .kickstarter .share_box a:hover {
   text-decoration: none;

@@ -1,45 +1,3 @@
-.kickstarter {
-  height: 100vh;
-}
-
-.kickstarter .container {
-  top: 30%;
-  position: absolute;
-  width: 100vw;
-
-}
-
-.kickstarter .container h1 {
-  font-weight: 300;
-  font-family: "source sans Pro", sans-serif;
-  font-size: 50px;
-  text-align: center;
-}
-
-.kickstarter .container .link-container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.kickstarter .container a {
-  margin-top: 15px; 
-  font-weight: 300;
-  font-family: "source sans Pro", sans-serif;
-  display: block;
-  text-align: center;
-}
-
-.kickstarter .container p {
-  margin-top: 15px; 
-  font-weight: 300;
-  font-family: "source sans Pro", sans-serif;
-  display: block;
-  text-align: center;
-  margin-right: 35%;
-  margin-left: 35%;
-  width: auto;
-}
-
 @charset "UTF-8";
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
@@ -298,6 +256,97 @@ div.clear {
   margin-top: 2vh;
   font-size: 16px;
   color: #265b7d;
+}
+
+.kickstarter {
+  height: 100vw;
+}
+.kickstarter .share_box {
+  position: fixed;
+  width: 50px;
+  top: 50px;
+  padding: 15px;
+}
+.kickstarter .share_box a:hover {
+  text-decoration: none;
+}
+.kickstarter .share_box .button {
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  width: 160px;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.kickstarter .share_box .ksbutton {
+  color: #343433;
+  background-color: #ffffff;
+  border: 2px #70a83b solid;
+}
+.kickstarter .share_box .ksbutton span {
+  color: #70a83b;
+}
+.kickstarter .share_box .twitbutton {
+  background-color: #E7F2FA;
+  border: 2px #77bae8 solid;
+  background: linear-gradient(#E7F2FA, #77bae8);
+}
+.kickstarter .share_box .twitbutton img {
+  width: 30px;
+  height: auto;
+  float: left;
+  padding-top: 5px;
+}
+.kickstarter .share_box .twitbutton h4 {
+  color: #ffffff;
+}
+.kickstarter .hireUs {
+  float: right;
+  margin-top: 60px;
+  margin-right: 15px;
+  background: linear-gradient(#78E4F2, #265b7d);
+  border-radius: 50%;
+  border: 5px #265b7d solid;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+.kickstarter .hireUs h1 {
+  padding-top: 30px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.kickstarter .hireUs img {
+  width: 75px;
+  height: auto;
+}
+.kickstarter .container {
+  top: 30%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kickstarter .container h1 {
+  font-weight: 300;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.kickstarter .container a {
+  margin-top: 15px;
+  font-weight: 300;
+  font-family: "source sans Pro", sans-serif;
+  display: block;
+  text-align: center;
+}
+.kickstarter .container p {
+  margin-top: 15px;
+  font-weight: 300;
+  font-family: "source sans Pro", sans-serif;
+  display: block;
+  text-align: center;
+  margin-right: 35%;
+  margin-left: 35%;
+  width: auto;
 }
 
 @-webkit-keyframes bounce {

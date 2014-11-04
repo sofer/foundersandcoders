@@ -260,6 +260,7 @@ div.clear {
 
 .kickstarter {
   height: 100vh;
+  background-color: #27285a;
 }
 .kickstarter .share_box {
   position: fixed;

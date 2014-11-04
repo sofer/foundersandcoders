@@ -259,13 +259,11 @@ div.clear {
 }
 
 .kickstarter {
-  height: 100vw;
+  height: 100vh;
 }
 .kickstarter .container {
-  top: 30%;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin-top: 20vh;
 }
 .kickstarter .container h1 {
   font-weight: 300;
@@ -432,17 +430,17 @@ div.clear {
   *zoom: 1;
 }
 .home-page .about-list .aboutlist_container .top-row #topOne {
-  padding: 9vw 9vw 9vw 5vw;
+  padding: 9vw 4vw;
   margin: 0;
 }
 .home-page .about-list .aboutlist_container .top-row #topTwo {
-  padding: 9vw 9vw 9vw 5vw;
+  padding: 9vw 4vw;
 }
 .home-page .about-list .aboutlist_container .top-row #topThree {
-  padding: 9vw 9vw 35vw 5vw;
+  padding: 9vw 4vw;
   margin: 0;
 }
-.home-page .about-list .aboutlist_container #h4-givebBackToTheCommunity {
+.home-page .about-list .aboutlist_container .h4-givebBackToTheCommunity {
   padding: 0.3em 0 1.5em 0;
 }
 .home-page .brands {

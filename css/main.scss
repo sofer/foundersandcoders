@@ -379,12 +379,12 @@ div.clear {
     .team {
         font-family: $FONT;
         background: url(../img/group.jpg) no-repeat center center;
-        background-size: cover;
-        height: 57vw;
+        background-size: contain;
+        height: 110vh;
         .team-region {
             *zoom: 1;
             text-align: right;
-            padding-top: 42vw;
+            padding-top: 60vh;
             .heading {
                 .heading-text-container {
                     background: rgba(0,0,0,0.7);

@@ -375,12 +375,12 @@ div.clear {
   font-family: "Source Sans Pro", sans-serif;
   background: url(../img/group.jpg) no-repeat center center;
   background-size: cover;
-  height: 57vw;
+  height: 110vh;
 }
 .home-page .team .team-region {
   *zoom: 1;
   text-align: right;
-  padding-top: 42vw;
+  padding-top: 60vh;
 }
 .home-page .team .team-region .heading {
   *zoom: 1;

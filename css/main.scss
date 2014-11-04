@@ -303,11 +303,11 @@ div.clear {
                 padding-bottom: 15px;
             }
             h1 {
-                margin-top: 20px;
                 padding: 10px 0 20px;
                 font-size: 4vw;
                 color: #fff;
                 font-weight: 400;
+                letter-spacing: 5px;
             }
             p {
                 margin-top: 20px;
@@ -315,10 +315,11 @@ div.clear {
                 color: #fff;
                 font-size: 2vw;
                 font-weight: 400;
+                letter-spacing: 0.8px;
             }
             .outer {
                 position: relative;
-                top: 12vw;
+                top: 9.5vw;
                 left: 47%;
                 .bouncing {
                     position: absolute;

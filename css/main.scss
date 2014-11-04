@@ -267,6 +267,68 @@ div.clear {
 
 .kickstarter {
     height: 100vh;
+    .share_box{
+        position:fixed;
+        width:50px;
+        top:50px;
+        padding:15px;
+        a:hover {
+            text-decoration: none;
+        }
+        .button {
+            border-radius: 10px;
+            text-align: center;
+            margin: 10px;
+            width: 160px;
+            font-family: "Arial Black", Gadget, sans-serif;
+        }
+        .ksbutton {
+            color: #343433;
+            background-color: #ffffff;
+            border: 2px #70a83b solid;
+           // background: linear-gradient(#343433, #343433);
+            span {
+                color: #70a83b;
+            }
+        }
+        .twitbutton {
+            background-color: #E7F2FA;
+            border: 2px #77bae8 solid;
+            background: linear-gradient(#E7F2FA, #77bae8);
+            img {
+                width: 30px;
+                height: auto;
+                float: left;
+                padding-top: 5px;
+            }
+            p {
+                color: #348FD0;
+            }
+            h4 {
+                color: #ffffff;
+            }
+        }
+    }
+    .hireUs {
+        float: right;
+        margin-top: 60px;
+        margin-right: 15px;
+        background: #2E2E2E;
+        border-radius: 50%;
+        border: 10px #ffffff solid;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        h1 {
+            padding-top: 30px;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        img {
+            width: 75px;
+            height: auto;
+        }
+    }
     .container {
         text-align: center;
         margin-top: 20vh;

@@ -398,11 +398,21 @@ div.clear {
             .top-row {
                 *zoom: 1;
                 #topOne {
-                    padding: 9vw 5vw 9vw 9vw;
+                    padding: 9vw 9vw 9vw 5vw;
+                    margin: 0;
                 }
                 #topTwo {
                     padding: 9vw 9vw 9vw 5vw;
                 }
+                #topThree {
+                    padding: 9vw 9vw 35vw 5vw;
+                    margin: 0;
+
+                }
+            }
+            #h4-givebBackToTheCommunity {
+                padding: 0.3em 0 1.5em 0;
+
             }
         }
     }

@@ -1,3 +1,12 @@
+.heading-text-container {
+  background: rgba(0,0,0,0.7);
+  display: inline-block;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
 @charset "UTF-8";
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
@@ -349,7 +358,7 @@ div.clear {
   font-size: 4vw;
 }
 .home-page .team .team-region .heading h3 {
-  padding-top: 2vw;
+  padding-top: 0.6vw;
   color: #ffffff;
   font-size: 2vw;
   font-weight: 300;

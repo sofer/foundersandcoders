@@ -325,25 +325,19 @@ div.clear {
 .kickstarter .container {
   text-align: center;
   padding-top: 20vh;
-}
-.kickstarter .container h1 {
-  font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 50px;
   text-align: center;
+  color: #ffffff h1;
+  color-font-weight: 300;
+  color-font-size: 50px;
 }
 .kickstarter .container a {
   margin-top: 15px;
   font-weight: 300;
-  font-family: "source sans Pro", sans-serif;
-  display: block;
-  text-align: center;
 }
 .kickstarter .container p {
   margin-top: 15px;
   font-weight: 300;
-  font-family: "source sans Pro", sans-serif;
-  display: block;
   text-align: center;
   margin-right: 35%;
   margin-left: 35%;
@@ -587,9 +581,10 @@ div.clear {
   text-align: center;
 }
 .process-page .process-heading .row h1 {
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 400;
   color: #fff;
+  padding-bottom: 1em;
 }
 .process-page .process-heading .row h2 {
   font-weight: 300;
@@ -601,7 +596,8 @@ div.clear {
 .process-page .process-heading .row img {
   margin-top: 5vw;
   margin-bottom: 5vw;
-  width: 100%;
+  width: 60%;
+  height: 60%;
 }
 .process-page .step-one {
   height: 100%;
@@ -613,8 +609,8 @@ div.clear {
   margin-top: 12vw;
 }
 .process-page .step-one h1 {
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 400;
   color: #fff;
   text-align: center;
 }
@@ -633,15 +629,17 @@ div.clear {
 .process-page .step-one img {
   width: 100%;
   margin: 5vw;
+  margin-top: 13em;
 }
 .process-page .step-two {
   height: 100%;
   background-color: #006b68;
+  padding-bottom: 40px;
 }
 .process-page .step-two h1 {
   margin-top: 5vw;
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 400;
   color: #75ad74;
   text-align: center;
   padding-bottom: 20px;
@@ -654,41 +652,13 @@ div.clear {
   text-align: center;
   font-weight: 300;
 }
-.process-page .step-two img {
-  width: 100%;
-  height: auto;
-  max-width: 900px;
-  margin: auto;
-  padding: 5%;
-  border-radius: 40px;
+.process-page .step-two .mentor-wrapper {
+  height: 285px;
+  overflow-y: hidden;
 }
-.process-page .step-three {
-  background: #265b78;
-  height: 100%;
-}
-.process-page .step-three .text {
-  padding: 10vw 10vw 0 10vw;
-}
-.process-page .step-three h1 {
-  font-size: 32px;
-  font-weight: 300;
-  color: #6af2f5;
-  padding-bottom: 15px;
-}
-.process-page .step-three p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 2;
-  color: #fff;
-  margin-bottom: 5vw;
-}
-.process-page .step-three .testingimgContainer {
-  padding: 0px;
-}
-.process-page .step-three .testingimgContainer img {
-  width: 100%;
-  padding-top: 10vw;
-  margin-right: -10px;
+.process-page .step-two .mentor-wrapper img {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

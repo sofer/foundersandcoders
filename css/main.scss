@@ -267,6 +267,7 @@ div.clear {
 
 .kickstarter {
     height: 100vh;
+    background-color: #27285a;
     .share_box{
         position:fixed;
         width:50px;
@@ -311,49 +312,33 @@ div.clear {
     }
     .hireUs {
         float: right;
-        margin-top: 60px;
-        margin-right: 15px;
-        background: #2E2E2E;
-        border-radius: 50%;
-        border: 10px #ffffff solid;
-        text-align: center;
-        width: 150px;
-        height: 150px;
-        h1 {
-            padding-top: 30px;
-            color: #ffffff;
-            font-size: 16px;
-        }
         img {
-            width: 75px;
+            margin-top: 50px;
+            width: 200px;
             height: auto;
         }
     }
     .container {
+        padding-top: 20vh;
+        font-family: $FONT;
         text-align: center;
-        margin-top: 20vh;
+        text-decoration: none;
         h1 {
-          font-weight: 300;
-          font-family: $FONT;
-          font-size: 50px;
-          text-align: center;
+            font-weight: 300;
+            font-size: 50px;
+            color: #ffffff
         }
         a {
-          margin-top: 15px; 
-          font-weight: 300;
-          font-family: "source sans Pro", sans-serif;
-          display: block;
-          text-align: center;
+            margin-top: 15px; 
+            font-weight: 300;
+            color: #ffffff
         }
         p {
-          margin-top: 15px; 
-          font-weight: 300;
-          font-family: "source sans Pro", sans-serif;
-          display: block;
-          text-align: center;
-          margin-right: 35%;
-          margin-left: 35%;
-          width: auto;
+            margin-top: 15px; 
+            font-weight: 300;
+            margin-right: 10%;
+            margin-left: 10%;
+            color: #ffffff
         }
     }
 

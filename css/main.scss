@@ -472,27 +472,32 @@ div.clear {
 .contact {
     font-family: $FONT;
     background-color: #282732;
-    .container {
-        width: 80%;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    h1 {
-        color: #fff;
-        font-size: 2em;
-        padding-bottom: 5px;
-        font-weight: 300;
-    }
-    h3 {
-        color: #78b7bb;
-        font-size: 1.5em;
-        font-weight: 300;
-        font-family: $FONT;
-        line-height: 1.2
-    }
     .contact-region {
         text-align: center;
         padding: 75px 0;
+        .container {
+        width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #fff;
+            font-size: 2em;
+            padding-bottom: 5px;
+            font-weight: 400;
+        }
+        h3 {
+            color: #6FC9D0;
+            font-size: 1.5em;
+            font-weight: 300;
+            font-family: $FONT;
+            line-height: 1.2;
+        }
+        img {
+            width: 50px;
+            height: auto;
+            margin: 10px;
+        }
     }
 }
 

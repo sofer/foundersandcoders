@@ -287,23 +287,6 @@ div.clear {
 .kickstarter .share_box .ksbutton span {
   color: #70a83b;
 }
-.kickstarter .share_box .twitbutton {
-  background-color: #E7F2FA;
-  border: 2px #77bae8 solid;
-  background: linear-gradient(#E7F2FA, #77bae8);
-}
-.kickstarter .share_box .twitbutton img {
-  width: 30px;
-  height: auto;
-  float: left;
-  padding-top: 5px;
-}
-.kickstarter .share_box .twitbutton p {
-  color: #348FD0;
-}
-.kickstarter .share_box .twitbutton h4 {
-  color: #ffffff;
-}
 .kickstarter .hireUs {
   float: right;
 }

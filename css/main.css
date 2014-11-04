@@ -1,45 +1,3 @@
-.kickstarter {
-  height: 100vh;
-}
-
-.kickstarter .container {
-  top: 30%;
-  position: absolute;
-  width: 100vw;
-
-}
-
-.kickstarter .container h1 {
-  font-weight: 300;
-  font-family: "source sans Pro", sans-serif;
-  font-size: 50px;
-  text-align: center;
-}
-
-.kickstarter .container .link-container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.kickstarter .container a {
-  margin-top: 15px; 
-  font-weight: 300;
-  font-family: "source sans Pro", sans-serif;
-  display: block;
-  text-align: center;
-}
-
-.kickstarter .container p {
-  margin-top: 15px; 
-  font-weight: 300;
-  font-family: "source sans Pro", sans-serif;
-  display: block;
-  text-align: center;
-  margin-right: 35%;
-  margin-left: 35%;
-  width: auto;
-}
-
 @charset "UTF-8";
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
@@ -300,6 +258,37 @@ div.clear {
   color: #265b7d;
 }
 
+.kickstarter {
+  height: 100vh;
+}
+.kickstarter .container {
+  text-align: center;
+  margin-top: 20vh;
+}
+.kickstarter .container h1 {
+  font-weight: 300;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.kickstarter .container a {
+  margin-top: 15px;
+  font-weight: 300;
+  font-family: "source sans Pro", sans-serif;
+  display: block;
+  text-align: center;
+}
+.kickstarter .container p {
+  margin-top: 15px;
+  font-weight: 300;
+  font-family: "source sans Pro", sans-serif;
+  display: block;
+  text-align: center;
+  margin-right: 35%;
+  margin-left: 35%;
+  width: auto;
+}
+
 @-webkit-keyframes bounce {
   from, to {
     bottom: 0;
@@ -441,10 +430,18 @@ div.clear {
   *zoom: 1;
 }
 .home-page .about-list .aboutlist_container .top-row #topOne {
-  padding: 9vw 5vw 9vw 9vw;
+  padding: 9vw 4vw;
+  margin: 0;
 }
 .home-page .about-list .aboutlist_container .top-row #topTwo {
-  padding: 9vw 9vw 9vw 5vw;
+  padding: 9vw 4vw;
+}
+.home-page .about-list .aboutlist_container .top-row #topThree {
+  padding: 9vw 4vw;
+  margin: 0;
+}
+.home-page .about-list .aboutlist_container .h4-givebBackToTheCommunity {
+  padding: 0.3em 0 1.5em 0;
 }
 .home-page .brands {
   font-family: "Source Sans Pro", sans-serif;

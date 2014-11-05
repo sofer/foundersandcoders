@@ -258,8 +258,14 @@ div.clear {
 }
 
 .kickstarter {
-  height: 100vh;
+  height: 125vh;
   background-color: #27285a;
+  background: url(../img/group.jpg) no-repeat center center;
+  background-size: cover;
+}
+.kickstarter .overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 125vh;
 }
 .kickstarter .share_box {
   position: fixed;
@@ -287,7 +293,7 @@ div.clear {
   color: #70a83b;
 }
 .kickstarter .container {
-  padding-top: 25vh;
+  padding-top: 40vh;
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   text-decoration: none;
@@ -313,11 +319,11 @@ div.clear {
 }
 .kickstarter .container a button {
   border: 1px solid #888;
-  background: #1d3d52;
+  background: #0776C0;
   padding: 10.5px 21px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
-  border-radius: 8px;
+  border-radius: 3px;
   text-shadow: #000000 0 1px 0;
   color: #ffffff;
   font-size: 2.5vmax;
@@ -478,6 +484,7 @@ div.clear {
   font-family: "Source Sans Pro", sans-serif;
 }
 .home-page .about-list .aboutlist_container {
+  height: 100vh;
   *zoom: 1;
   display: block;
   margin: 0 auto;
@@ -494,9 +501,8 @@ div.clear {
 }
 .home-page .about-list .aboutlist_container h4 {
   color: #484652;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 1.5em;
-  padding: 0.3em 0 0.5em 0;
 }
 .home-page .about-list .aboutlist_container img {
   width: 45px;
@@ -515,10 +521,11 @@ div.clear {
   padding: 2vw 4vw;
 }
 .home-page .about-list .aboutlist_container .top-row #topThree {
-  padding: 8vw 4vw 2vw 4vw;
+  padding: 4vw 4vw 2vw 4vw;
 }
 .home-page .about-list .aboutlist_container .h4-givebBackToTheCommunity {
-  padding: 0.3em 0 1.5em 0;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 .home-page .brands {
   font-family: "Source Sans Pro", sans-serif;

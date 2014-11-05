@@ -350,9 +350,9 @@ div.clear {
   padding-bottom: 15vw;
 }
 .home-page .tagline .tagline_container.container img {
-  width: 30%;
+  margin-left: 18%;
+  width: 20%;
   height: auto;
-  margin: auto;
   padding-bottom: 15px;
   text-shadow: 2px 2px 0px #969696;
 }

@@ -298,6 +298,13 @@ div.clear {
   color: #ffffff;
   padding-bottom: 10px;
 }
+.kickstarter .container h3 {
+  font-weight: 300;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
 .kickstarter .container a {
   margin-top: 20px;
   margin-bottom: 20px;

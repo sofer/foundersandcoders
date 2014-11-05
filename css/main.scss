@@ -323,17 +323,21 @@ div.clear {
             color: #ffffff
         }
         a {
-            margin-top: 15px; 
+            margin-top: 20px; 
+            margin-bottom: 20px;
+            padding-top: 20px;
             font-weight: 300;
             color: #ffffff;
             font-size: 2.5vmax;
         }
         p {
-            margin-top: 15px; 
+            margin-top: 20px; 
+            padding-bottom: 20px;
             font-weight: 300;
             margin-right: 10%;
             margin-left: 10%;
-            color: #ffffff
+            color: #ffffff;
+            letter-spacing: 2.5px;
         }
     }
 

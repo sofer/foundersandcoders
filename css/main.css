@@ -657,10 +657,10 @@ div.clear {
   filter: alpha(opacity=40);
 }
 
-.process-page .step-one img:hover {
+/*.process-page .step-one img:hover {
   opacity: 1.0;
   filter: alpha(opacity=50);
-}
+}*/
 
 .process-page .step-two {
   height: 100%;
@@ -686,16 +686,13 @@ div.clear {
 
 .process-page .step-two .mentor-wrapper {
   height: 285px;
-<<<<<<< HEAD
   width:300px;
   border-radius: 20px;
   padding-left: 0;
-=======
->>>>>>> 48b0a0cf85b7d0bdca305f5d03dbd9df28beb572
 }
 .process-page .step-two .mentor-wrapper img {
   width: 300px;
-  height: 255px;
+  height: 265px;
   border-radius: 30px;
   opacity: 0.8;
   filter: alpha(opacity=40);
@@ -714,11 +711,11 @@ div.clear {
 	display: inline-block;
 	margin: 0.9em;
 	width: 300px;
-  height: 255px;
+  height: 265px;
 }
 
 .photo-grid figure {
-	height: 255px;
+	height: 265px;
 	overflow: hidden;
 	width: 300px;
   position: absolute;

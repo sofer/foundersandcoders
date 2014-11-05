@@ -167,7 +167,6 @@ table {
 body, html {
   text-align: left;
   font-size: 1em;
-  overflow-x: hidden;
   z-index: 1;
 }
 
@@ -287,14 +286,6 @@ div.clear {
 .kickstarter .share_box .ksbutton span {
   color: #70a83b;
 }
-.kickstarter .hireUs {
-  float: right;
-}
-.kickstarter .hireUs img {
-  margin-top: 50px;
-  width: 200px;
-  height: auto;
-}
 .kickstarter .container {
   padding-top: 25vh;
   font-family: "Source Sans Pro", sans-serif;
@@ -302,21 +293,59 @@ div.clear {
   text-decoration: none;
 }
 .kickstarter .container h1 {
-  font-weight: 300;
-  font-size: 50px;
+  font-size: 60px;
   color: #ffffff;
+  padding-bottom: 10px;
+}
+.kickstarter .container h3 {
+  font-weight: 300;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
 }
 .kickstarter .container a {
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
   font-weight: 300;
   color: #ffffff;
 }
+.kickstarter .container a button {
+  border: 1px solid #888;
+  background: #1d3d52;
+  padding: 10.5px 21px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 8px;
+  text-shadow: #000000 0 1px 0;
+  color: #ffffff;
+  font-size: 2.5vmax;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-top: 2%;
+}
+.kickstarter .container a button:hover {
+  border: 1px solid #0a3c59;
+  text-shadow: #1e4158 0 1px 0;
+  background: #3e779d;
+  color: #fff;
+}
+.kickstarter .container a button:active {
+  text-shadow: #1e4158 0 1px 0;
+  border: 1px solid #0a3c59;
+  background: #65a9d7;
+  color: #fff;
+}
 .kickstarter .container p {
-  margin-top: 15px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   font-weight: 300;
   margin-right: 10%;
   margin-left: 10%;
   color: #ffffff;
+  letter-spacing: 2.5px;
 }
 
 @-webkit-keyframes bounce {
@@ -339,6 +368,13 @@ div.clear {
     animation-timing-function: ease-in;
   }
 }
+.home-page .hireUs {
+  float: right;
+}
+.home-page .hireUs img {
+  width: 25vw;
+  height: auto;
+}
 .home-page .tagline {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #265b7d;
@@ -351,9 +387,9 @@ div.clear {
   padding-bottom: 15vw;
 }
 .home-page .tagline .tagline_container.container img {
-  width: 30%;
+  margin-left: 18%;
+  width: 20%;
   height: auto;
-  margin: auto;
   padding-bottom: 15px;
   text-shadow: 2px 2px 0px #969696;
 }
@@ -398,12 +434,12 @@ div.clear {
 }
 .home-page .team .team-region {
   *zoom: 1;
-  text-align: right;
+  text-align: center;
   padding-top: 60vh;
+  padding-bottom: 30vh;
 }
 .home-page .team .team-region .heading {
   *zoom: 1;
-  margin-bottom: 55px;
 }
 .home-page .team .team-region .heading .heading-text-container {
   background: rgba(0, 0, 0, 0.7);
@@ -412,18 +448,31 @@ div.clear {
   padding-bottom: 0.2%;
   padding-right: 1%;
   padding-left: 1%;
+  margin-top: -3%;
 }
 .home-page .team .team-region .heading h1 {
+  font-align: center;
   color: #1C9099;
   font-weight: 400;
-  font-size: 4vw;
+  font-size: 3vw;
 }
-.home-page .team .team-region .heading h3 {
-  padding-top: 0.6vw;
+.home-page .team .outer {
+  position: relative;
+  top: 20vw;
+  left: 47%;
+}
+.home-page .team .outer .bouncing {
+  position: absolute;
+  -webkit-animation-name: bounce;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+.home-page .team .outer .bouncing .glyphicon {
   color: #ffffff;
-  font-size: 2vw;
-  font-weight: 300;
-  font-family: "Source Sans Pro", sans-serif;
+  font-size: 5vw;
 }
 .home-page .about-list {
   font-family: "Source Sans Pro", sans-serif;
@@ -460,15 +509,13 @@ div.clear {
   *zoom: 1;
 }
 .home-page .about-list .aboutlist_container .top-row #topOne {
-  padding: 9vw 4vw;
-  margin: 0;
+  padding: 2vw 4vw;
 }
 .home-page .about-list .aboutlist_container .top-row #topTwo {
-  padding: 9vw 4vw;
+  padding: 2vw 4vw;
 }
 .home-page .about-list .aboutlist_container .top-row #topThree {
-  padding: 9vw 4vw;
-  margin: 0;
+  padding: 8vw 4vw 2vw 4vw;
 }
 .home-page .about-list .aboutlist_container .h4-givebBackToTheCommunity {
   padding: 0.3em 0 1.5em 0;
@@ -639,9 +686,12 @@ div.clear {
 
 .process-page .step-two .mentor-wrapper {
   height: 285px;
+<<<<<<< HEAD
   width:300px;
   border-radius: 20px;
   padding-left: 0;
+=======
+>>>>>>> 48b0a0cf85b7d0bdca305f5d03dbd9df28beb572
 }
 .process-page .step-two .mentor-wrapper img {
   width: 300px;

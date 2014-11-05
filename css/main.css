@@ -424,6 +424,7 @@ div.clear {
   font-size: 2vw;
   font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
+  text-shadow: 2px 2px 0px #000;
 }
 .home-page .about-list {
   font-family: "Source Sans Pro", sans-serif;

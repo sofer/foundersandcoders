@@ -296,6 +296,7 @@ div.clear {
 .kickstarter .container h1 {
   font-size: 60px;
   color: #ffffff;
+  padding-bottom: 10px;
 }
 .kickstarter .container a {
   margin-top: 20px;
@@ -303,7 +304,33 @@ div.clear {
   padding-top: 20px;
   font-weight: 300;
   color: #ffffff;
+}
+.kickstarter .container a button {
+  border: 1px solid #888;
+  background: #1d3d52;
+  padding: 10.5px 21px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 8px;
+  text-shadow: #000000 0 1px 0;
+  color: #ffffff;
   font-size: 2.5vmax;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-top: 3%;
+}
+.kickstarter .container a button:hover {
+  border: 1px solid #0a3c59;
+  text-shadow: #1e4158 0 1px 0;
+  background: #3e779d;
+  color: #fff;
+}
+.kickstarter .container a button:active {
+  text-shadow: #1e4158 0 1px 0;
+  border: 1px solid #0a3c59;
+  background: #65a9d7;
+  color: #fff;
 }
 .kickstarter .container p {
   margin-top: 20px;

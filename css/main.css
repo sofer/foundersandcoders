@@ -326,7 +326,7 @@ div.clear {
   border-radius: 3px;
   text-shadow: #000000 0 1px 0;
   color: #ffffff;
-  font-size: 2.5vmax;
+  font-size: 2vmax;
   font-family: "Source Sans Pro", sans-serif;
   text-decoration: none;
   vertical-align: middle;
@@ -352,6 +352,34 @@ div.clear {
   margin-left: 10%;
   color: #ffffff;
   letter-spacing: 2.5px;
+}
+.kickstarter .container div {
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.kickstarter .container div div {
+  margin-right: 1vw;
+}
+.kickstarter .container div div p {
+  font-size: 1.5vmax;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+.kickstarter .container div div a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.kickstarter .container div div a #twitterlogo {
+  height: 30px;
+  margin-right: 10px;
+}
+.kickstarter .container div div a #facebooklogo {
+  height: 30px;
+  margin-right: 15px;
 }
 
 @-webkit-keyframes bounce {

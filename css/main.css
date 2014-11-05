@@ -621,12 +621,7 @@ div.clear {
   padding-top: 0;
   font-size: 22px;
   font-family: "Source Sans Pro", sans-serif;
-}
-.process-page .process-heading .row img {
-  margin-top: 5vw;
-  margin-bottom: 5vw;
-  width: 60%;
-  height: 60%;
+  padding-bottom: 10%;
 }
 .process-page .step-one {
   height: 100%;

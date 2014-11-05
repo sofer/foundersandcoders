@@ -298,17 +298,21 @@ div.clear {
   color: #ffffff;
 }
 .kickstarter .container a {
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
   font-weight: 300;
   color: #ffffff;
   font-size: 2.5vmax;
 }
 .kickstarter .container p {
-  margin-top: 15px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   font-weight: 300;
   margin-right: 10%;
   margin-left: 10%;
   color: #ffffff;
+  letter-spacing: 2.5px;
 }
 
 @-webkit-keyframes bounce {

@@ -287,14 +287,6 @@ div.clear {
 .kickstarter .share_box .ksbutton span {
   color: #70a83b;
 }
-.kickstarter .hireUs {
-  float: right;
-}
-.kickstarter .hireUs img {
-  margin-top: 50px;
-  width: 200px;
-  height: auto;
-}
 .kickstarter .container {
   padding-top: 25vh;
   font-family: "Source Sans Pro", sans-serif;
@@ -338,6 +330,13 @@ div.clear {
     bottom: 20px;
     animation-timing-function: ease-in;
   }
+}
+.home-page .hireUs {
+  float: right;
+}
+.home-page .hireUs img {
+  width: 300px;
+  height: auto;
 }
 .home-page .tagline {
   font-family: "Source Sans Pro", sans-serif;

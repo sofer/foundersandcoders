@@ -312,14 +312,7 @@ div.clear {
         //     }
         // }
     }
-    .hireUs {
-        float: right;
-        img {
-            margin-top: 50px;
-            width: 200px;
-            height: auto;
-        }
-    }
+
     .container {
         padding-top: 25vh;
         font-family: $FONT;
@@ -371,6 +364,13 @@ div.clear {
 
 .home-page {
     // landing page starts here
+    .hireUs {
+        float: right;
+        img {
+            width: 300px;
+            height: auto;
+        }
+    }
     .tagline {
         font-family: $FONT;
         background-color: #265b7d;

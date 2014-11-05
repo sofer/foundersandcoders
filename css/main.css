@@ -397,12 +397,12 @@ div.clear {
 }
 .home-page .team .team-region {
   *zoom: 1;
-  text-align: right;
+  text-align: center;
   padding-top: 60vh;
+  padding-bottom: 30vh;
 }
 .home-page .team .team-region .heading {
   *zoom: 1;
-  margin-bottom: 55px;
 }
 .home-page .team .team-region .heading .heading-text-container {
   background: rgba(0, 0, 0, 0.7);
@@ -411,19 +411,13 @@ div.clear {
   padding-bottom: 0.2%;
   padding-right: 1%;
   padding-left: 1%;
+  margin-top: -3%;
 }
 .home-page .team .team-region .heading h1 {
+  font-align: center;
   color: #1C9099;
   font-weight: 400;
-  font-size: 4vw;
-}
-.home-page .team .team-region .heading h3 {
-  padding-top: 0.6vw;
-  color: #ffffff;
-  font-size: 2vw;
-  font-weight: 300;
-  font-family: "Source Sans Pro", sans-serif;
-  text-shadow: 2px 1px 0px #000;
+  font-size: 3vw;
 }
 .home-page .about-list {
   font-family: "Source Sans Pro", sans-serif;

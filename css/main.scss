@@ -409,6 +409,7 @@ div.clear {
             height: auto;
         }
     }
+    //Tagline has been taken out
     .tagline {
         font-family: $FONT;
         background-color: #265b7d;
@@ -460,6 +461,7 @@ div.clear {
             }
         }
     }
+    //===================================
     //picture of team goes here.
     .team {
         font-family: $FONT;
@@ -468,8 +470,9 @@ div.clear {
         height: 110vh;
         .team-region {
             *zoom: 1;
-            text-align: right;
+            text-align: center;
             padding-top: 60vh;
+            padding-bottom: 30vh;
             .heading {
                 .heading-text-container {
                     background: rgba(0,0,0,0.7);
@@ -478,24 +481,35 @@ div.clear {
                     padding-bottom: 0.2%;
                     padding-right: 1%;
                     padding-left: 1%;
+                    margin-top: -3%;
                 }
                 *zoom: 1;
-                margin-bottom: 55px;
                 h1 {
+                    font-align: center;
                     color: #1C9099;
                     font-weight: 400;
-                    font-size: 4vw;
-                }
-                h3 {
-                    padding-top: 0.6vw;
-                    color: #ffffff;
-                    font-size: 2vw;
-                    font-weight: 300;
-                    font-family: $FONT;
-                    text-shadow: 2px 1px 0px #000;
+                    font-size: 3vw;
                 }
             }
         }
+          .outer {
+                position: relative;
+                top: 20vw;
+                left: 47%;
+                .bouncing {
+                    position: absolute;
+                    -webkit-animation-name: bounce;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-duration: 2s;
+                    animation-name: bounce;
+                    animation-iteration-count: infinite;
+                    animation-duration: 2s;
+                    .glyphicon {
+                        color: #ffffff;
+                        font-size: 5vw;
+                    }
+                }
+            }
     }
     // about us section starts here
     .about-list {
@@ -530,15 +544,15 @@ div.clear {
             .top-row {
                 *zoom: 1;
                 #topOne {
-                    padding: 9vw 4vw;
-                    margin: 0;
+                    padding: 2vw 4vw;
+                   
                 }
                 #topTwo {
-                    padding: 9vw 4vw;
+                    padding: 2vw 4vw;
                 }
                 #topThree {
-                    padding: 9vw 4vw;
-                    margin: 0;
+                    padding: 8vw 4vw 2vw 4vw
+                   
 
                 }
             }

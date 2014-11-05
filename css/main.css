@@ -167,7 +167,6 @@ table {
 body, html {
   text-align: left;
   font-size: 1em;
-  overflow-x: hidden;
   z-index: 1;
 }
 
@@ -677,7 +676,6 @@ div.clear {
 }
 .process-page .step-two .mentor-wrapper {
   height: 285px;
-  overflow-y: hidden;
 }
 .process-page .step-two .mentor-wrapper img {
   min-width: 100%;

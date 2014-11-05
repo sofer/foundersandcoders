@@ -166,7 +166,6 @@ table {
 body,html {
     text-align: left;
     font-size: 1em;
-    overflow-x: hidden;
     z-index: 1
 }
 
@@ -738,7 +737,6 @@ div.clear {
         }
         .mentor-wrapper {
             height: 285px;
-            overflow-y: hidden;
             img {
                 min-width: 100%;
                 min-height: 100%;

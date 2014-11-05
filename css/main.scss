@@ -320,7 +320,8 @@ div.clear {
         text-decoration: none;
         h1 {
             font-size: 60px;
-            color: #ffffff
+            color: #ffffff;
+            padding-bottom: 10px;
         }
         a {
             margin-top: 20px; 
@@ -341,7 +342,7 @@ div.clear {
                    font-family: $FONT;
                    text-decoration: none;
                    vertical-align: middle;
-                   margin-top: 4%;
+                   margin-top: 3%;
             }
             button:hover {
                border: 1px solid #0a3c59;

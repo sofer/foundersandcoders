@@ -296,6 +296,7 @@ div.clear {
 .kickstarter .container h1 {
   font-size: 60px;
   color: #ffffff;
+  padding-bottom: 10px;
 }
 .kickstarter .container a {
   margin-top: 20px;
@@ -317,7 +318,7 @@ div.clear {
   font-family: "Source Sans Pro", sans-serif;
   text-decoration: none;
   vertical-align: middle;
-  margin-top: 4%;
+  margin-top: 3%;
 }
 .kickstarter .container a button:hover {
   border: 1px solid #0a3c59;

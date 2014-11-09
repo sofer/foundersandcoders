@@ -390,6 +390,8 @@ div.clear {
                     display: inline-block;
                     margin: 0 5px 0 0;
                     padding: 0;
+                    font-weight: bold;
+                    padding-bottom: 5px;
                 }
                 a {
                     display: inline-block;
@@ -672,6 +674,15 @@ div.clear {
             font-weight: 300;
             font-family: $FONT;
             line-height: 1.2;
+        }
+        hr {
+            width: 25%;
+        }
+        p {
+            color: #FFF;
+            font-size: 1.2em;
+            font-family: $FONT;
+            letter-spacing: 2px;
         }
         img {
             width: 50px;

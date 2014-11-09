@@ -324,11 +324,12 @@ div.clear {
         text-align: center;
         text-decoration: none;
         h1 {
-            font-size: 60px;
+            font-size: 4.4vmax;
             color: #ffffff;
             padding-bottom: 10px;
         }
         h3 {
+            font-size: 1.75vmax;
             font-weight: 300;
             color: #ffffff;
             padding-top: 10px;
@@ -370,6 +371,7 @@ div.clear {
             }
         }
         p {
+            font-size: 1.2vmax;
             margin-top: 20px; 
             padding-bottom: 20px;
             font-weight: 300;
@@ -576,17 +578,21 @@ div.clear {
                 float: left;
                 margin-right: 10px;
             }
-            .top-row {
+            .container {
+                margin-top: 5%;
                 *zoom: 1;
-                #topOne {
-                    padding: 2vw 4vw;
-                   
-                }
-                #topTwo {
-                    padding: 2vw 4vw;
-                }
-                #topThree {
-                    padding: 4vw 4vw 2vw 4vw
+                .triptych {
+                    padding: 0vw 2.5vw 2vw;
+                        p {
+                            padding-top: 5%;
+                        }
+                        #topOne {
+
+                        }
+                        #topTwo {
+                        }
+                        #topThree {
+                        }
                 }
             }
             .h4-givebBackToTheCommunity {

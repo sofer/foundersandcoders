@@ -299,11 +299,12 @@ div.clear {
   text-decoration: none;
 }
 .kickstarter .container h1 {
-  font-size: 60px;
+  font-size: 4.4vmax;
   color: #ffffff;
   padding-bottom: 10px;
 }
 .kickstarter .container h3 {
+  font-size: 1.75vmax;
   font-weight: 300;
   color: #ffffff;
   padding-top: 10px;
@@ -345,6 +346,7 @@ div.clear {
   color: #fff;
 }
 .kickstarter .container p {
+  font-size: 1.2vmax;
   margin-top: 20px;
   padding-bottom: 20px;
   font-weight: 300;
@@ -541,17 +543,15 @@ div.clear {
   float: left;
   margin-right: 10px;
 }
-.home-page .about-list .aboutlist_container .top-row {
+.home-page .about-list .aboutlist_container .container {
+  margin-top: 5%;
   *zoom: 1;
 }
-.home-page .about-list .aboutlist_container .top-row #topOne {
-  padding: 2vw 4vw;
+.home-page .about-list .aboutlist_container .container .triptych {
+  padding: 0vw 2.5vw 2vw;
 }
-.home-page .about-list .aboutlist_container .top-row #topTwo {
-  padding: 2vw 4vw;
-}
-.home-page .about-list .aboutlist_container .top-row #topThree {
-  padding: 4vw 4vw 2vw 4vw;
+.home-page .about-list .aboutlist_container .container .triptych p {
+  padding-top: 5%;
 }
 .home-page .about-list .aboutlist_container .h4-givebBackToTheCommunity {
   font-weight: bold;

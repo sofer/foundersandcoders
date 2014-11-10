@@ -293,29 +293,10 @@ div.clear {
             color: #343433;
             background-color: #ffffff;
             border: 2px #70a83b solid;
-           // background: linear-gradient(#343433, #343433);
             span {
                 color: #70a83b;
             }
         }
-        // NOT USED
-        // .twitbutton {
-        //     background-color: #E7F2FA;
-        //     border: 2px #77bae8 solid;
-        //     background: linear-gradient(#E7F2FA, #77bae8);
-        //     img {
-        //         width: 30px;
-        //         height: auto;
-        //         float: left;
-        //         padding-top: 5px;
-        //     }
-        //     p {
-        //         color: #348FD0;
-        //     }
-        //     h4 {
-        //         color: #ffffff;
-        //     }
-        // }
     }
 
     .container {
@@ -786,5 +767,90 @@ div.clear {
             }
         }
         
+    }
+}
+
+//PROSPECTIVE STUDENTS PAGE STARTS HERE!
+
+.student-page {
+    font-family: $FONT;
+    .intro {
+        height: 100vh;
+        background: #27285a;
+        .row {
+            padding-top: 30vh;
+            text-align: center;
+            h1 {
+            font-size: 60px;
+            font-weight: 400;
+            color: #fff;
+            }
+            h2 {
+            font-weight: 300;
+            color: #78b7bb;
+            padding-top: 3em;
+            font-size: 22px;
+            font-family: $FONT;
+            padding-bottom: 10%;
+
+            }
+        }
+    }
+    .about-brief {
+        height: 100vh;
+        background-color: #75ad74;
+        width: 100%;
+        text-align: center;
+        .course {
+            margin-top: 12vw;
+            padding: 0 50px;
+            .icon {
+                width: 75px;
+                margin-bottom: 50px;
+            }
+            h1 {
+                font-size: 22px;
+                font-weight: 400;
+                color: #fff;
+            }
+            p {
+                margin-top: 2vw;
+                margin-bottom: 12vw;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.2;
+                color: #d3ceea;
+                color: #F7F2E0;
+                font-weight: 300;
+                font-family: $FONT;
+            }
+        }
+    }
+    .after-course {
+        height: 100vh;
+        background-color: #006b68;
+        padding-bottom: 40px;
+        text-align: left;
+        .profit {
+            padding: 0 50px;
+            h1 {
+                margin-top: 5vw;
+                font-size: 40px;
+                font-weight: 400;
+                color: #75ad74;
+                text-align: left;
+                padding-bottom: 20px;
+            }
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.2;
+                color: #F7F2E0;
+                font-weight: 300;
+            }
+        }
+    }
+    .schedule {
+        height: 100vh;
     }
 }

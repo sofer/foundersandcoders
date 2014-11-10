@@ -777,6 +777,7 @@ div.clear {
 }
 .student-page .about-brief .buttons {
   margin-top: 15vh;
+  padding: 0 50px;
 }
 .student-page .about-brief .buttons #apply-button {
   background-color: #069490;
@@ -819,6 +820,34 @@ div.clear {
   line-height: 1.2;
   color: #F7F2E0;
   font-weight: 300;
+}
+.student-page .after-course .buttons {
+  padding: 20px 50px;
+}
+.student-page .after-course .buttons h2 {
+  color: #75ad74;
+}
+.student-page .after-course .buttons button {
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  border-radius: 0;
+}
+.student-page .after-course .buttons #get-in-touch {
+  background-color: #60C2BE;
+  color: #27285a;
+  border: 3px #0D5F77 solid;
+}
+.student-page .after-course .buttons #get-in-touch:hover {
+  background-color: #45A5A1;
+}
+.student-page .after-course .buttons #support-us {
+  background-color: #A3CF73;
+  color: #006b68;
+  border: 3px #006b68 solid;
+}
+.student-page .after-course .buttons #support-us:hover {
+  background-color: #7EBE6D;
 }
 
 /*# sourceMappingURL=main.css.map */

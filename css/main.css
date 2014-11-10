@@ -723,4 +723,86 @@ div.clear {
   min-height: 100%;
 }
 
+.student-page {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.student-page .intro {
+  height: 100vh;
+  background: #27285a;
+}
+.student-page .intro .row {
+  padding-top: 30vh;
+  text-align: center;
+}
+.student-page .intro .row h1 {
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+}
+.student-page .intro .row h2 {
+  font-weight: 300;
+  color: #78b7bb;
+  padding-top: 3em;
+  font-size: 22px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-bottom: 10%;
+}
+.student-page .about-brief {
+  height: 100vh;
+  background-color: #75ad74;
+  width: 100%;
+  text-align: center;
+}
+.student-page .about-brief .course {
+  margin-top: 12vw;
+  padding: 0 50px;
+}
+.student-page .about-brief .course .icon {
+  width: 75px;
+  margin-bottom: 50px;
+}
+.student-page .about-brief .course h1 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+.student-page .about-brief .course p {
+  margin-top: 2vw;
+  margin-bottom: 12vw;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #d3ceea;
+  color: #F7F2E0;
+  font-weight: 300;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.student-page .after-course {
+  height: 100vh;
+  background-color: #006b68;
+  padding-bottom: 40px;
+  text-align: left;
+}
+.student-page .after-course .profit {
+  padding: 0 50px;
+}
+.student-page .after-course .profit h1 {
+  margin-top: 5vw;
+  font-size: 40px;
+  font-weight: 400;
+  color: #75ad74;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.student-page .after-course .profit p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #F7F2E0;
+  font-weight: 300;
+}
+.student-page .schedule {
+  height: 100vh;
+}
+
 /*# sourceMappingURL=main.css.map */

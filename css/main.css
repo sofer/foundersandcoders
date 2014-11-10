@@ -728,7 +728,7 @@ div.clear {
 }
 .student-page .intro {
   height: 100vh;
-  background: #27285a;
+  background: #265b7d;
 }
 .student-page .intro .row {
   padding-top: 30vh;
@@ -741,7 +741,7 @@ div.clear {
 }
 .student-page .intro .row h2 {
   font-weight: 300;
-  color: #78b7bb;
+  color: #9AD7F7;
   padding-top: 3em;
   font-size: 22px;
   font-family: "Source Sans Pro", sans-serif;
@@ -749,12 +749,12 @@ div.clear {
 }
 .student-page .about-brief {
   height: 100vh;
-  background-color: #75ad74;
+  background-color: #27285a;
   width: 100%;
   text-align: center;
 }
 .student-page .about-brief .course {
-  margin-top: 12vw;
+  margin-top: 15vh;
   padding: 0 50px;
 }
 .student-page .about-brief .course .icon {
@@ -764,18 +764,37 @@ div.clear {
 .student-page .about-brief .course h1 {
   font-size: 22px;
   font-weight: 400;
-  color: #fff;
+  color: #64A4CD;
 }
 .student-page .about-brief .course p {
-  margin-top: 2vw;
-  margin-bottom: 12vw;
+  margin-top: 5vh;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
-  color: #d3ceea;
-  color: #F7F2E0;
+  color: #ADD9F4;
   font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
+}
+.student-page .about-brief .buttons {
+  margin-top: 15vh;
+}
+.student-page .about-brief .buttons #apply-button {
+  background-color: #069490;
+  color: #fff;
+  border: 3px #069490 solid;
+}
+.student-page .about-brief .buttons #apply-button:hover {
+  background-color: #1A7673;
+  border: 3px #1A7673 solid;
+}
+.student-page .about-brief .buttons #more-info-button {
+  color: #6E6E6E;
+  border: 3px #848484 solid;
+}
+.student-page .about-brief .buttons button {
+  width: 100%;
+  height: 60px;
+  border-radius: 0;
 }
 .student-page .after-course {
   height: 100vh;
@@ -800,9 +819,6 @@ div.clear {
   line-height: 1.2;
   color: #F7F2E0;
   font-weight: 300;
-}
-.student-page .schedule {
-  height: 100vh;
 }
 
 /*# sourceMappingURL=main.css.map */

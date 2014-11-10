@@ -847,7 +847,11 @@ div.clear {
   border: 3px #006b68 solid;
 }
 .student-page .after-course .buttons #support-us:hover {
-  background-color: #7EBE6D;
+  background-color: #75D8E5;
+}
+.student-page .schedule {
+  height: 100vh;
+  background-color: #81DAF5;
 }
 
 /*# sourceMappingURL=main.css.map */

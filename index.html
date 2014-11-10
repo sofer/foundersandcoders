@@ -9,8 +9,9 @@ layout: default
 
 </div></region>
 	<!-- KICKSTARTER SECTION -->
-	<div class="kickstarter">
+	<div class="kickstarter clearfix">
 		<div class="overlay">
+			<!--
 			<div class="share_box">
 	    		<a href="https://www.kickstarter.com/" target="_blank">
 	    			<div class="ksbutton button">
@@ -18,26 +19,32 @@ layout: default
 	    				<h4>Kick<span>starter</span></h4>
 	    			</div>
 	    		</a>
-	    		<!-- too busy!!
+	    		 too busy!!
 	    		<a href="http://www.twitter.com/" target="_blank">
 	    			<div class="twitbutton button">
 	    				<img src="img/twitter.png">
 	    				<p>Follow Us On</p>
 	    				<h4>Twitter</h4>
 	    			</div>
-	    		< \/a>-->
-			</div>
+	    		< \/a>
+			</div>-->
 			<!-- no idea what to do below... -->
 
 			<div class="container">
 				<h1>Kickstart an Education Revolution</h1>
 				<h3><strong>We are starting the world's only free, self-funding coding bootcamp.</strong> </h3>
-				
-				<p>Founders and Coders have already provided successful coding courses <br>to four cohorts of ambitious young Londoners. 
-					<br>
-					<br> 
-				We need your support for the next step.</p>
-				<a href="http://www.linksomewhereplease.com"><button>Support us</button></a>
+				<p>Founders and Coders have already provided successful coding courses <br>to four cohorts of ambitious young Londoners.<br><br> We need your support for the next step.</p>
+				<div>
+					<div>
+						<p>1. Share on Facebook</p><br><a target="_blank" href="http://www.linksomewhereplease.com"><button><img id="facebooklogo" src="/img/facebook.png">Share</button></a>
+					</div>
+					<div>
+						<p>2. Share on Twitter</p><br><a target="_blank" href="http://www.linktotwitter.com"><button><img id="twitterlogo" src="/img/twitter.png">Share</button></a>
+					</div>
+					<div>
+						<p>3. Help our Kickstarter</p><br><a target="_blank" href="http://www.linksomewhereplease.com"><button>Support us</button></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -68,21 +75,22 @@ layout: default
 	
 
 	<!-- LIST OF STUFF ABOUT US -->
-	<a name="about" id="about"></a>
+	<a name="about" id="team"></a>
 	<div class="about-list">
 		<div class="aboutlist_container container-fluid">
-			<div class="top-row row">
-				<div class="col-sm-5 col-sm-offset-1 col-md-10 col-md-offset-1" id="topThree">
-					<h4 class = "h4-givebBackToTheCommunity">Pay it Forward</h4>
-						<p>Founders and Coders trains bright people with no experience to be junior web developers via an intensive eight week course run several times a year. We accept applications from anyone who is willing to work hard, work in a team and keen to learn. Employers are able to hire our students with no finder's fee, our programming grads are now working in tech companies all over London. Other graduates work freelance or stick around to help us tackle projects and help pass on the skills that they have learnt here to future cohorts. </p>
+			<div class="container container-fluid">
+				<div class="col-sm-5 col-md-4 triptych" id="topThree">
+					<h4 class = "h4-givebBackToTheCommunity">Giving back</h4>
+						<p>Founders and Coders runs intensive eight week courses to train bright people with no experience to be junior web developers. We accept applications from anyone who is keen to learn, willing to work hard, and collaborate in a team. Charging no finder's fees, we have graduates working in both tech companies and as freelance developers. All graduates are encouraged stick around to help us tackle projects and help pass on the skills that they have learnt here to future students.</p>
 				</div>
-				<div class="col-sm-5 col-md-10 col-md-offset-1" id="topOne">
-					<h4 class = "h4-givebBackToTheCommunity">Sharpest Tools in the Shed</h4>
-						<p>We understand web applications need to run smoothly, load quickly and handle large amounts of data efficiently. Like Yahoo!, Paypal, eBay, and Uber, we love Node.js. Node is a powerful technology used to create efficient and scalable network applications.</p>
+				<div class="col-sm-5 col-md-4 triptych" id="topOne">
+					<h4 class = "h4-givebBackToTheCommunity">Self-sustaining</h4>
+						<p>The course's self-funding model is achieved with two main streams of income: renting out workspace to our graduates (and other developers), and sponsorship from companies who wish to employ them. The Kickstarter we are running will cover the first three months rent to allow graduates to develop themselves professionally. After that, they will be able to fund the space themselves while volunteering time to help teach the next course.</p>
+						<!--This allows alumni to enhance their practices and product ideas while surrounded by other developers-->
 				</div>
-				<div class="col-sm-6 col-sm-offset-3 col-md-10 col-md-offset-1" id="topTwo">
-					<h4 class = "h4-givebBackToTheCommunity">Hey Good Lookin'</h4>
-						<p>It’s not easy being beautiful. Fortunately, we are here to make sure users enjoy visiting your site and understand easily how to use it. Everything we make can be optimised across a full range of computer, mobile and tablet devices. We are happy to help you to create new style guides or to work following existing ones.</p>
+				<div class="col-sm-6 col-md-4 triptych" id="topTwo">
+					<h4 class = "h4-givebBackToTheCommunity">Replicating</h4>
+						<p>The Founders and Coders model requires hardly any resources. All it needs is a course leader, passionate people, and a space to work in. And because we nurture an ethos of giving back within a model of education that is self-funding and depends on very few resources, we believe that this course can be replicated anywhere in the world. We aren't just starting a free coding school in London, we are starting a global movement in free and sustainable education.</p>
 					<!-- This shoudl be about how good it looks. -->
 				</div>
 					<!-- This should be about how well everything works.  -->
@@ -121,7 +129,10 @@ layout: default
 		<div class="container">
 			<div class="form-heading">
 				<h1>Interested?</h1>
-				<h3>Get in touch, get involved.</h3><br>
+				<h3>Get in touch, get involved.</h3><hr>
+				
+				<p>contact@foundersandcoders.org</p>
+				<p>+447 727 207 226</p>
 				<a href="mailto:contact@foundersandcoders.org">
 					<img src="img/bluemail.png">
 				</a>

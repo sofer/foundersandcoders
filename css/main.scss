@@ -319,16 +319,17 @@ div.clear {
     }
 
     .container {
-        padding-top: 40vh;
+        padding-top: 38vh;
         font-family: $FONT;
         text-align: center;
         text-decoration: none;
         h1 {
-            font-size: 60px;
+            font-size: 4.4vmax;
             color: #ffffff;
             padding-bottom: 10px;
         }
         h3 {
+            font-size: 1.75vmax;
             font-weight: 300;
             color: #ffffff;
             padding-top: 10px;
@@ -344,13 +345,13 @@ div.clear {
             button {
                    border: 1px solid #888;
                    background: #0776C0;
-                   padding: 10.5px 21px;
+                   padding: 6.5px 18px 11px;
                    -webkit-border-radius: 6px;
                    -moz-border-radius: 6px;
                    border-radius: 3px;
                    text-shadow: #000000 0 1px 0;
                    color: #ffffff;
-                   font-size: 2.5vmax;
+                   font-size: 2vmax;
                    font-family: $FONT;
                    text-decoration: none;
                    vertical-align: middle;
@@ -370,6 +371,7 @@ div.clear {
             }
         }
         p {
+            font-size: 1.4vmax;
             margin-top: 20px; 
             padding-bottom: 20px;
             font-weight: 300;
@@ -377,6 +379,36 @@ div.clear {
             margin-left: 10%;
             color: #ffffff;
             letter-spacing: 2.5px;
+        }
+        div {
+            display: inline-block;
+            margin-top: 0.5em;
+            margin-right: auto;
+            margin-left: auto;
+            div {
+                margin-right: 1vw;
+                p {
+                    font-size: 1.5vmax;
+                    display: inline-block;
+                    margin: 0 5px 0 0;
+                    padding: 0;
+                    font-weight: bold;
+                    padding-bottom: 5px;
+                }
+                a {
+                    display: inline-block;
+                    margin: 0;
+                    padding: 0;
+                    #twitterlogo {
+                        height: 30px;
+                        margin-right: 10px;
+                    }
+                    #facebooklogo {
+                        height: 30px;
+                        margin-right: 15px;
+                    }
+                }
+            }
         }
     }
 
@@ -546,17 +578,21 @@ div.clear {
                 float: left;
                 margin-right: 10px;
             }
-            .top-row {
+            .container {
+                margin-top: 5%;
                 *zoom: 1;
-                #topOne {
-                    padding: 2vw 4vw;
-                   
-                }
-                #topTwo {
-                    padding: 2vw 4vw;
-                }
-                #topThree {
-                    padding: 4vw 4vw 2vw 4vw
+                .triptych {
+                    padding: 0vw 2.5vw 2vw;
+                        p {
+                            padding-top: 5%;
+                        }
+                        #topOne {
+
+                        }
+                        #topTwo {
+                        }
+                        #topThree {
+                        }
                 }
             }
             .h4-givebBackToTheCommunity {
@@ -644,6 +680,15 @@ div.clear {
             font-weight: 300;
             font-family: $FONT;
             line-height: 1.2;
+        }
+        hr {
+            width: 25%;
+        }
+        p {
+            color: #FFF;
+            font-size: 1.2em;
+            font-family: $FONT;
+            letter-spacing: 2px;
         }
         img {
             width: 50px;

@@ -1,19 +1,5 @@
-@charset "UTF-8";
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
-}
-
-audio, canvas, video {
-  display: inline-block;
-}
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-[hidden] {
-  display: none;
 }
 
 html {
@@ -34,80 +20,8 @@ h1 {
   font-size: 2em;
 }
 
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-b, strong {
-  font-weight: 700;
-}
-
-dfn {
-  font-style: italic;
-}
-
-hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-}
-
-mark {
-  background: #ff0;
-  color: #000;
-}
-
-code, kbd, pre, samp {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1em;
-}
-
-pre {
-  white-space: pre-wrap;
-}
-
-q {
-  quotes: "“" "”" "‘" "’";
-}
-
-small {
-  font-size: 80%;
-}
-
-sub, sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -.5em;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
 img {
   border: 0;
-}
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-figure {
-  margin: 0;
-}
-
-fieldset {
-  border: 1px solid silver;
-}
-
-legend {
-  border: 0;
-  padding: 0;
 }
 
 button, input, select, textarea {
@@ -173,10 +87,6 @@ body, html {
 body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, img, input, li, ol, p, pre, textarea, ul {
   margin: 0;
   padding: 0;
-}
-
-li, ul {
-  list-style: none;
 }
 
 a {
@@ -852,6 +762,38 @@ div.clear {
 .student-page .schedule {
   height: 100vh;
   background-color: #81DAF5;
+}
+.student-page .schedule #accordion .panel-default {
+  border: none;
+  border-radius: 0;
+}
+.student-page .schedule #accordion .panel-default .panel-heading {
+  border-bottom: 2px grey solid;
+  background-color: #BAEDFC;
+  border-radius: 0;
+}
+.student-page .schedule #accordion .panel-default .panel-heading h4 {
+  color: #27285a;
+}
+.student-page .schedule #accordion .panel-default .panel-heading h4 .description {
+  margin-left: 70px;
+}
+.student-page .schedule #accordion .panel-default .panel-heading h4 .arrow {
+  float: right;
+}
+.student-page .schedule #accordion .panel-default .panel-heading a:hover {
+  text-decoration: none;
+}
+.student-page .schedule #accordion .panel-default #headingOne .description {
+  margin-left: 40px;
+}
+.student-page .schedule #accordion .panel-default .panel-body {
+  border: none;
+  background-color: #81DAF5;
+}
+.student-page .schedule #accordion .panel-default .panel-body ul {
+  margin-left: 30px;
+  color: #27285a;
 }
 
 /*# sourceMappingURL=main.css.map */

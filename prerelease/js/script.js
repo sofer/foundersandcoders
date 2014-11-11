@@ -36,4 +36,10 @@ $(document).ready(function(){
 		$('#arrow9').toggleClass('glyphicon-chevron-down glyphicon-chevron-left');
 	});
 	
+	$('a').click(function(){
+	    $('html, body').animate({
+	        scrollTop: $( $(this).attr('href') ).offset().top
+	    }, 1000);
+	    return false;
+	});
 });

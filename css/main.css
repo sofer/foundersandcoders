@@ -547,6 +547,64 @@ div.clear {
   margin: 10px;
 }
 
+.photo-grid {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.photo-grid li.HWW {
+  display: inline-block;
+  margin: 0.9em;
+  width: 300px;
+  height: 265px;
+}
+
+.photo-grid figure {
+  height: 265px;
+  overflow: hidden;
+  width: 300px;
+  position: absolute;
+}
+
+.photo-grid li.HWW:hover figcaption {
+  opacity: 1.5;
+}
+
+.photo-grid figcaption {
+  color: white;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  transition-delay: 100ms;
+  z-index: 100;
+}
+.photo-grid figcaption p.mentName {
+  text-align: center;
+  border-radius: 5px;
+  display: block;
+  font-size: 1.1em;
+  position: relative;
+  top: 185px;
+  overflow: hidden;
+  width: 300px;
+  height: 30px;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+.photo-grid li.HWW:hover figcaption p.mentName {
+  -moz-transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+}
+
 .process-page {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -627,10 +685,20 @@ div.clear {
 }
 .process-page .step-two .mentor-wrapper {
   height: 285px;
+  width: 300px;
+  border-radius: 22px;
+  padding-left: 0;
 }
 .process-page .step-two .mentor-wrapper img {
-  min-width: 100%;
-  min-height: 100%;
+  width: 300px;
+  height: 265px;
+  border-radius: 3px;
+  opacity: 0.8;
+  filter: alpha(opacity=40);
+}
+.process-page .step-two .mentor-wrapper img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=50);
 }
 
 .student-page {

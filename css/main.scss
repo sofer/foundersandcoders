@@ -266,17 +266,16 @@ and (max-device-width : 1024px) {
             color: #ffffff;
             button {
                    border: none;
-                   // border: 1px solid #888;
                    background: #6FC9D0;
                    padding: 5px 10px 10px 20px;
-                   // border-radius: 3px;
-                   // text-shadow: #000000 0 1px 0;
                    color: #ffffff;
                    font-size: 24px;
                    font-family: $FONT;
                    text-decoration: none;
                    vertical-align: middle;
-                   // margin-top: 2%;
+                   span {
+                        padding-right: 10px;
+                    }
             }
             button:hover {
                // border: 1px solid #0a3c59;
@@ -376,7 +375,7 @@ and (max-device-width : 767px) {
             height: 100%;
         }
         .container {
-            padding-top: 50px;
+            padding-top: 100px;
             h1 {
                 font-size: 25px;
             }

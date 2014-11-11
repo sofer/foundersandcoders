@@ -172,6 +172,9 @@ div.clear {
     width: 100%;
     background: none;
   }
+  .navbar-default .navbar-brand {
+    font-size: 18px;
+  }
   .navbar-default .navbar-header {
     background-color: #fff;
   }

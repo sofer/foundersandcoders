@@ -181,6 +181,9 @@ and (max-device-width : 767px) {
     .navbar-default {
         width: 100%;
         background: none;
+        .navbar-brand {
+            font-size: 18px;
+        }
         .navbar-header {
             background-color: #fff;
         }

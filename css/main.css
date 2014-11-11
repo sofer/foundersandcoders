@@ -746,31 +746,31 @@ div.clear {
   color: #F7F2E0;
   font-weight: 300;
 }
-.student-page .after-course .buttons {
+.student-page .after-course #buttons {
   padding: 20px 50px;
 }
-.student-page .after-course .buttons h2 {
+.student-page .after-course #buttons h2 {
   color: #75ad74;
 }
-.student-page .after-course .buttons button {
+.student-page .after-course #buttons button {
   margin-top: 20px;
   width: 100%;
   height: 60px;
   border-radius: 0;
   border: none;
 }
-.student-page .after-course .buttons #get-in-touch {
+.student-page .after-course #buttons #get-in-touch {
   background-color: #60C2BE;
   color: #27285a;
 }
-.student-page .after-course .buttons #get-in-touch:hover {
+.student-page .after-course #buttons #get-in-touch:hover {
   background-color: #45A5A1;
 }
-.student-page .after-course .buttons #support-us {
+.student-page .after-course #buttons #support-us {
   background-color: #A3CF73;
   color: #006b68;
 }
-.student-page .after-course .buttons #support-us:hover {
+.student-page .after-course #buttons #support-us:hover {
   background-color: #8BAE64;
 }
 .student-page .schedule {
@@ -833,6 +833,75 @@ div.clear {
 }
 .student-page .schedule .buttons #apply-button:hover {
   background-color: #3A89AB;
+}
+
+@media only screen and (max-device-width: 767px) {
+  .student-page .intro {
+    height: 100%;
+  }
+  .student-page .intro .row {
+    padding-top: 25vh;
+  }
+  .student-page .intro .row h1 {
+    font-size: 35px;
+  }
+  .student-page .intro .row h2 {
+    padding: 40px 0 60px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  .student-page .about-brief {
+    height: 100%;
+  }
+  .student-page .about-brief .buttons button {
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .student-page .after-course {
+    height: 100%;
+  }
+  .student-page .after-course .profit {
+    padding: 30px;
+  }
+  .student-page .after-course .profit h1 {
+    margin-top: 5vw;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .student-page .after-course .profit p {
+    font-size: 16px;
+  }
+  .student-page .after-course #buttons {
+    padding: 0px 30px;
+  }
+  .student-page .after-course #buttons h2 {
+    font-size: 20px;
+  }
+  .student-page .after-course #buttons button {
+    height: 40px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .student-page .schedule #title {
+    font-size: 30px;
+  }
+  .student-page .schedule #accordion .panel-default .panel-heading h4 {
+    font-size: 16px;
+  }
+  .student-page .schedule #accordion .panel-default .panel-heading h4 .description {
+    margin-left: 5px;
+  }
+  .student-page .schedule #accordion .panel-default #headingOne .description {
+    margin-left: 5px;
+  }
+  .student-page .schedule .buttons {
+    padding: 0;
+  }
+  .student-page .schedule .buttons #apply-button {
+    height: 40px;
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

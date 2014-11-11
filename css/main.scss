@@ -39,7 +39,7 @@ button,input {
 }
 
 button,select {
-    text-transform: none
+    text-transform: none;
 }
 
 button,html input[type=button],input[type=reset],input[type=submit] {
@@ -744,20 +744,21 @@ div.clear {
             #apply-button {
                 background-color: #069490;
                 color: #fff;
-                border: 3px #069490 solid;
             }
             #apply-button:hover {
                 background-color: #1A7673;
-                border: 3px #1A7673 solid;
             }
             #more-info-button {
                 color: #6E6E6E;
-                border: 3px #848484 solid;
+            }
+            #more-info-button:hover {
+                background-color: #D8D6D6;
             }
             button {
                 width: 100%;
                 height: 60px;
                 border-radius: 0;
+                border: none;
             }
         }
     }
@@ -794,11 +795,11 @@ div.clear {
                 width: 100%;
                 height: 60px;
                 border-radius: 0;
+                border: none;
             }
             #get-in-touch {
                 background-color: #60C2BE;
                 color: #27285a;
-                border: 3px #0D5F77 solid;
             }
             #get-in-touch:hover {
                 background-color: #45A5A1;
@@ -806,17 +807,16 @@ div.clear {
             #support-us {
                 background-color: #A3CF73;
                 color: #006b68;
-                border: 3px #006b68 solid;
             }
             #support-us:hover {
-                background-color: #75D8E5;
+                background-color: #8BAE64;
             }
         }
     }
     .schedule {
         height: 100%;
         background-color: #81DAF5;
-        h1 {
+        #title {
             margin-top: 50px;
             padding-bottom: 5px;
             color: #336D8B;
@@ -858,6 +858,21 @@ div.clear {
                     color: #336D8B;
                     }
                 }
+            }
+        }
+        .buttons {
+            margin-bottom: 15vh;
+            padding: 0 50px;
+            #apply-button {
+                width: 100%;
+                height: 60px;
+                border-radius: 0;
+                background-color: #3E92B6;
+                color: #fff;
+                border: none;
+            }
+            #apply-button:hover {
+                background-color: #3A89AB;
             }
         }
     }

@@ -240,7 +240,7 @@ and (max-device-width : 1024px) {
     }
 
     .container {
-        padding-top: 38vh;
+        padding-top: 25vh;
         font-family: $FONT;
         text-align: center;
         text-decoration: none;
@@ -327,6 +327,25 @@ and (max-device-width : 1024px) {
                         height: 30px;
                         margin-right: 15px;
                     }
+                }
+            }
+        }
+        .outer {
+            position: relative;
+            width: 100%;
+            top: 125px;
+            left: -40px;
+            .bouncing {
+                position: absolute;
+                -webkit-animation-name: bounce;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-duration: 2s;
+                animation-name: bounce;
+                animation-iteration-count: infinite;
+                animation-duration: 2s;
+                .glyphicon {
+                    color: #ffffff;
+                    font-size: 5vw;
                 }
             }
         }

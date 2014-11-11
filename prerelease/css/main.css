@@ -225,14 +225,12 @@ div.clear {
 .kickstarter .container h1 {
   font-size: 60px;
   color: #ffffff;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 .kickstarter .container h3 {
   font-size: 30px;
   font-weight: 300;
   color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 10px;
   letter-spacing: 1px;
 }
 .kickstarter .container a {
@@ -341,47 +339,32 @@ div.clear {
     height: 100%;
   }
   .kickstarter .container {
-    padding-top: 100px;
+    padding-top: 50px;
   }
   .kickstarter .container h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .kickstarter .container h3 {
-    font-size: 15px;
+    font-size: 16px;
   }
-  .kickstarter .container button {
-    border: 1px solid #888;
-    background: #0776C0;
-    padding: 5px 5px 5px;
-    font-size: 20px;
+  .kickstarter .container a button {
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .kickstarter .container a button span {
+    padding-right: 5px;
   }
   .kickstarter .container p {
     font-size: 12px;
     letter-spacing: 1.5px;
-    margin: 100px, 0px, 100px, 0px;
-  }
-  .kickstarter .container #mediaButton {
-    margin-bottom: 100px;
-  }
-  .kickstarter .container #mediaButton div {
-    margin-right: 1vw;
-  }
-  .kickstarter .container #mediaButton div p {
-    font-size: 12px;
-  }
-  .kickstarter .container #mediaButton div a #twitterlogo {
-    height: 15px;
-    margin-right: 15px;
-  }
-  .kickstarter .container #mediaButton div a #facebooklogo {
-    height: 15px;
-    margin-right: 15px;
-  }
-  .kickstarter .container #mediaButton div #supportus {
-    margin-bottom: 50px;
+    margin: 20px 0;
+    padding: 0;
   }
   .kickstarter .container .outer {
-    top: -50px;
+    top: 0px;
     left: -15px;
   }
   .kickstarter .container .outer .bouncing {
@@ -416,6 +399,7 @@ div.clear {
   font-family: "Source Sans Pro", sans-serif;
 }
 .home-page .about-list .aboutlist_container {
+  padding: 50px 0 100px;
   height: 100%;
   *zoom: 1;
   display: block;
@@ -435,13 +419,6 @@ div.clear {
   color: #484652;
   font-weight: bold;
   font-size: 1.5em;
-}
-.home-page .about-list .aboutlist_container img {
-  width: 45px;
-  height: auto;
-  display: block;
-  float: left;
-  margin-right: 10px;
 }
 .home-page .about-list .aboutlist_container .container {
   margin-top: 5%;
@@ -546,13 +523,14 @@ div.clear {
 @media only screen and (max-device-width: 767px) {
   .home-page .about-list .aboutlist_container {
     height: 100%;
+    padding: 10px 0 20px;
   }
   .home-page .about-list .aboutlist_container p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
   }
   .home-page .about-list .aboutlist_container h4 {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     letter-spacing: 5px;
     margin-top: 20px;
@@ -571,25 +549,31 @@ div.clear {
     margin-bottom: 50px;
   }
   .home-page .brands .logo-region {
-    padding: 50px 0 0;
+    padding: 15px 0 0;
   }
   .home-page .brands .logo-region .brand-logos .hapi img {
-    width: 70px;
+    width: 50px;
+    padding-bottom: 15px;
   }
   .home-page .brands .logo-region .brand-logos .javascript img {
-    width: 70px;
+    width: 50px;
+    padding-bottom: 15px;
   }
   .home-page .brands .logo-region .brand-logos .nodejs img {
-    width: 70px;
+    width: 50px;
+    padding-bottom: 15px;
   }
   .home-page .brands .logo-region .brand-logos .sass img {
-    width: 70px;
+    width: 50px;
+    padding-bottom: 15px;
   }
   .home-page .brands .logo-region .brand-logos .d3 img {
-    width: 50px;
+    width: 40px;
+    padding-bottom: 15px;
   }
   .home-page .brands .logo-region .brand-logos .angular img {
-    width: 70px;
+    width: 50px;
+    padding-bottom: 15px;
   }
 }
 .contact {
@@ -635,7 +619,7 @@ div.clear {
 
 @media only screen and (max-device-width: 767px) {
   .contact .contact-region {
-    padding: 75px 0;
+    padding: 50px 0;
   }
   .contact .contact-region h1 {
     font-size: 30px;

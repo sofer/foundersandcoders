@@ -253,6 +253,9 @@ div.clear {
   text-decoration: none;
   vertical-align: middle;
 }
+.kickstarter .container a button span {
+  padding-right: 10px;
+}
 .kickstarter .container a button:hover {
   background: #282732;
   color: #fff;
@@ -342,7 +345,7 @@ div.clear {
     height: 100%;
   }
   .kickstarter .container {
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .kickstarter .container h1 {
     font-size: 25px;

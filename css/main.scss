@@ -510,19 +510,26 @@ and (max-device-width : 767px) {
         }
     }
     .more-info {
-        background-color: #265b7d;
+        background-color: #75ad74;
+        height: 100vh;
+        .container {
+            margin-top: 5%;
+        }
         h2 {
+            color: rgb(51, 51, 51);
             font-weight: bold;
             text-align: center;
             padding-bottom: 1%;
             font-family: $FONT;
         }
         p#subheading {
+            color: rgb(51, 51, 51);
             text-align: center;
             padding-bottom: 3%;
             font-family: $FONT;
         }
         .h4-moreinfo {
+            color: rgb(51, 51, 51);
             font-weight: bold;
             padding-bottom: 5px;
             color: #222;
@@ -530,7 +537,7 @@ and (max-device-width : 767px) {
             font-size: 1.5em;
         }
         p {
-            color: #333;
+            color: rgb(51, 51, 51);
             font-size: 1em;
             font-weight: 400;
             line-height: 2.3em;
@@ -543,7 +550,7 @@ and (max-device-width : 767px) {
         background-color: #78b7bb;
         .logo-region {
             margin: 0 auto;
-            padding: 100px 0 50px;
+            padding: 50px 0 0px;
             .brand-logos {
                 .hapi {
                     img {

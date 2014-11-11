@@ -125,9 +125,12 @@ div.clear {
   position: fixed;
   width: 100%;
   z-index: 1;
-  border-radius: 0;
-  background-color: #ffffff;
+  background: none;
+  border: none;
   font-family: "Source Sans Pro", sans-serif;
+}
+.navbar-default .navbar-header {
+  background-color: #fff;
 }
 .navbar-default .collapsed {
   text-decoration: none;

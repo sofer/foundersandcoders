@@ -131,9 +131,12 @@ div.clear {
     position: fixed;
     width: 100%;
     z-index: 1;
-    border-radius: 0;
-    background-color: #ffffff;
+    background: none;
+    border: none;
     font-family: $FONT;
+    .navbar-header {
+        background-color: #fff;
+    }
     .collapsed {
         text-decoration: none;
             padding: 0;

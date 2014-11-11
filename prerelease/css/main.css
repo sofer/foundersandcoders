@@ -217,7 +217,7 @@ div.clear {
   color: #70a83b;
 }
 .kickstarter .container {
-  padding-top: 38vh;
+  padding-top: 25vh;
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   text-decoration: none;
@@ -307,6 +307,25 @@ div.clear {
 .kickstarter .container div div a #facebooklogo {
   height: 30px;
   margin-right: 15px;
+}
+.kickstarter .container .outer {
+  position: relative;
+  width: 100%;
+  top: 125px;
+  left: -40px;
+}
+.kickstarter .container .outer .bouncing {
+  position: absolute;
+  -webkit-animation-name: bounce;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+.kickstarter .container .outer .bouncing .glyphicon {
+  color: #ffffff;
+  font-size: 5vw;
 }
 
 @media only screen and (max-device-width: 767px) {

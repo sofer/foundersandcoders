@@ -465,20 +465,27 @@ div.clear {
   padding-bottom: 5px;
 }
 .home-page .more-info {
-  background-color: #265b7d;
+  background-color: #75ad74;
+  height: 100vh;
+}
+.home-page .more-info .container {
+  margin-top: 5%;
 }
 .home-page .more-info h2 {
+  color: #333333;
   font-weight: bold;
   text-align: center;
   padding-bottom: 1%;
   font-family: "Source Sans Pro", sans-serif;
 }
 .home-page .more-info p#subheading {
+  color: #333333;
   text-align: center;
   padding-bottom: 3%;
   font-family: "Source Sans Pro", sans-serif;
 }
 .home-page .more-info .h4-moreinfo {
+  color: #333333;
   font-weight: bold;
   padding-bottom: 5px;
   color: #222;
@@ -486,7 +493,7 @@ div.clear {
   font-size: 1.5em;
 }
 .home-page .more-info p {
-  color: #333;
+  color: #333333;
   font-size: 1em;
   font-weight: 400;
   line-height: 2.3em;
@@ -498,7 +505,7 @@ div.clear {
 }
 .home-page .brands .logo-region {
   margin: 0 auto;
-  padding: 100px 0 50px;
+  padding: 50px 0 0px;
 }
 .home-page .brands .logo-region .brand-logos .hapi img {
   width: 100px;

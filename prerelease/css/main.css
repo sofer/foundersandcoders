@@ -293,12 +293,24 @@ div.clear {
   margin: 0 5px 0 0;
   padding: 0;
   font-weight: bold;
-  padding-bottom: 5px;
+  padding-bottom: 5%;
+}
+.kickstarter .container div div p#phone {
+  font-size: 1.25vmax;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  padding-top: 1%;
+  font-weight: bold;
+  padding-bottom: 0;
 }
 .kickstarter .container div div a {
   display: inline-block;
   margin: 0;
-  padding: 0;
+  padding-top: 3%;
+  font-weight: bold;
+}
+.kickstarter .container div div a span {
+  margin-top: 8%;
 }
 .kickstarter .container div div a #twitterlogo {
   height: 30px;
@@ -311,7 +323,7 @@ div.clear {
 .kickstarter .container .outer {
   position: relative;
   width: 100%;
-  top: 125px;
+  top: 100px;
   left: -40px;
 }
 .kickstarter .container .outer .bouncing {

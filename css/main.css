@@ -125,9 +125,11 @@ div.clear {
   position: fixed;
   width: 100%;
   z-index: 1;
+  background: none;
+  border: none;
   border-radius: 0;
-  background-color: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
+  background-color: #fff;
 }
 .navbar-default .collapsed {
   text-decoration: none;
@@ -156,8 +158,6 @@ div.clear {
   height: 100%;
 }
 .navbar-default .navbar-collapse {
-  background-color: #ffffff;
-  width: 50%;
   float: right;
 }
 .navbar-default .navbar-collapse .navbar-li a {
@@ -167,6 +167,20 @@ div.clear {
   color: #265b7d;
 }
 
+@media only screen and (max-device-width: 767px) {
+  .navbar-default {
+    width: 100%;
+    background: none;
+  }
+  .navbar-default .navbar-header {
+    background-color: #fff;
+  }
+  .navbar-default .navbar-collapse {
+    background-color: #ffffff;
+    width: 50%;
+    float: right;
+  }
+}
 .kickstarter {
   height: 125vh;
   background-color: #27285a;
@@ -209,12 +223,12 @@ div.clear {
   text-decoration: none;
 }
 .kickstarter .container h1 {
-  font-size: 4.4vmax;
+  font-size: 60px;
   color: #ffffff;
   padding-bottom: 10px;
 }
 .kickstarter .container h3 {
-  font-size: 1.75vmax;
+  font-size: 30px;
   font-weight: 300;
   color: #ffffff;
   padding-top: 10px;
@@ -232,12 +246,10 @@ div.clear {
   border: 1px solid #888;
   background: #0776C0;
   padding: 6.5px 18px 11px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
   border-radius: 3px;
   text-shadow: #000000 0 1px 0;
   color: #ffffff;
-  font-size: 2vmax;
+  font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
   text-decoration: none;
   vertical-align: middle;
@@ -256,7 +268,7 @@ div.clear {
   color: #fff;
 }
 .kickstarter .container p {
-  font-size: 1.4vmax;
+  font-size: 18px;
   margin-top: 20px;
   padding-bottom: 20px;
   font-weight: 300;
@@ -264,6 +276,7 @@ div.clear {
   margin-left: 10%;
   color: #ffffff;
   letter-spacing: 2.5px;
+  line-height: 1.2;
 }
 .kickstarter .container div {
   display: inline-block;
@@ -296,6 +309,52 @@ div.clear {
   margin-right: 15px;
 }
 
+@media only screen and (max-device-width: 767px) {
+  .kickstarter {
+    height: 100%;
+  }
+  .kickstarter .overlay {
+    height: 100%;
+  }
+  .kickstarter .container {
+    padding-top: 100px;
+  }
+  .kickstarter .container h1 {
+    font-size: 30px;
+  }
+  .kickstarter .container h3 {
+    font-size: 15px;
+  }
+  .kickstarter .container button {
+    border: 1px solid #888;
+    background: #0776C0;
+    padding: 5px 5px 5px;
+    font-size: 20px;
+  }
+  .kickstarter .container p {
+    font-size: 12px;
+    margin-right: 0;
+    margin-left: 0;
+    letter-spacing: 1.5px;
+  }
+  .kickstarter .container div div {
+    margin-right: 1vw;
+  }
+  .kickstarter .container div div p {
+    font-size: 12px;
+  }
+  .kickstarter .container div div a #twitterlogo {
+    height: 15px;
+    margin-right: 15px;
+  }
+  .kickstarter .container div div a #facebooklogo {
+    height: 15px;
+    margin-right: 15px;
+  }
+  .kickstarter .container div div #supportus {
+    margin-bottom: 50px;
+  }
+}
 @-webkit-keyframes bounce {
   from, to {
     bottom: 0;
@@ -315,112 +374,6 @@ div.clear {
     bottom: 20px;
     animation-timing-function: ease-in;
   }
-}
-.home-page .hireUs {
-  float: right;
-}
-.home-page .hireUs img {
-  width: 25vw;
-  height: auto;
-}
-.home-page .tagline {
-  font-family: "Source Sans Pro", sans-serif;
-  background-color: #265b7d;
-}
-.home-page .tagline .tagline_container.container {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 12vw;
-  padding-bottom: 15vw;
-}
-.home-page .tagline .tagline_container.container img {
-  margin-left: 18%;
-  width: 20%;
-  height: auto;
-  padding-bottom: 15px;
-  text-shadow: 2px 2px 0px #969696;
-}
-.home-page .tagline .tagline_container.container h1 {
-  padding: 10px 0 20px;
-  font-size: 4vw;
-  color: #fff;
-  font-weight: 400;
-  letter-spacing: 5px;
-}
-.home-page .tagline .tagline_container.container p {
-  margin-top: 20px;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #fff;
-  font-size: 2vw;
-  font-weight: 400;
-  letter-spacing: 0.8px;
-}
-.home-page .tagline .tagline_container.container .outer {
-  position: relative;
-  top: 9.5vw;
-  left: 47%;
-}
-.home-page .tagline .tagline_container.container .outer .bouncing {
-  position: absolute;
-  -webkit-animation-name: bounce;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 2s;
-  animation-name: bounce;
-  animation-iteration-count: infinite;
-  animation-duration: 2s;
-}
-.home-page .tagline .tagline_container.container .outer .bouncing .glyphicon {
-  color: #ffffff;
-  font-size: 5vw;
-}
-.home-page .team {
-  font-family: "Source Sans Pro", sans-serif;
-  background: url(../img/group.jpg) no-repeat center center;
-  background-size: cover;
-  height: 110vh;
-}
-.home-page .team .team-region {
-  *zoom: 1;
-  text-align: center;
-  padding-top: 60vh;
-  padding-bottom: 30vh;
-}
-.home-page .team .team-region .heading {
-  *zoom: 1;
-}
-.home-page .team .team-region .heading .heading-text-container {
-  background: rgba(0, 0, 0, 0.7);
-  display: inline-block;
-  padding-top: 0.2%;
-  padding-bottom: 0.2%;
-  padding-right: 1%;
-  padding-left: 1%;
-  margin-top: -3%;
-}
-.home-page .team .team-region .heading h1 {
-  font-align: center;
-  color: #1C9099;
-  font-weight: 400;
-  font-size: 3vw;
-}
-.home-page .team .outer {
-  position: relative;
-  top: 20vw;
-  left: 47%;
-}
-.home-page .team .outer .bouncing {
-  position: absolute;
-  -webkit-animation-name: bounce;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 2s;
-  animation-name: bounce;
-  animation-iteration-count: infinite;
-  animation-duration: 2s;
-}
-.home-page .team .outer .bouncing .glyphicon {
-  color: #ffffff;
-  font-size: 5vw;
 }
 .home-page .about-list {
   font-family: "Source Sans Pro", sans-serif;
@@ -500,12 +453,53 @@ div.clear {
   height: auto;
   padding-bottom: 50px;
 }
-.home-page .brands .logo-region .brand-logos .ctu img {
-  width: 100px;
-  height: auto;
-  padding-bottom: 50px;
-}
 
+@media only screen and (max-device-width: 767px) {
+  .home-page .about-list .aboutlist_container {
+    height: 100%;
+  }
+  .home-page .about-list .aboutlist_container p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .home-page .about-list .aboutlist_container h4 {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+  }
+  .home-page .about-list .aboutlist_container img {
+    width: 45px;
+    height: auto;
+    display: block;
+    float: left;
+    margin-right: 10px;
+  }
+  .home-page .about-list .aboutlist_container #topOne {
+    margin-top: 30px;
+  }
+  .home-page .about-list .aboutlist_container #topThree {
+    margin-bottom: 50px;
+  }
+  .home-page .brands .logo-region {
+    padding: 50px 0 0;
+  }
+  .home-page .brands .logo-region .brand-logos .hapi img {
+    width: 70px;
+  }
+  .home-page .brands .logo-region .brand-logos .javascript img {
+    width: 70px;
+  }
+  .home-page .brands .logo-region .brand-logos .nodejs img {
+    width: 70px;
+  }
+  .home-page .brands .logo-region .brand-logos .sass img {
+    width: 70px;
+  }
+  .home-page .brands .logo-region .brand-logos .d3 img {
+    width: 50px;
+  }
+}
 .contact {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #282732;
@@ -547,9 +541,30 @@ div.clear {
   margin: 10px;
 }
 
+@media only screen and (max-device-width: 767px) {
+  .contact .contact-region {
+    padding: 75px 0;
+  }
+  .contact .contact-region h1 {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+  .contact .contact-region h3 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .contact .contact-region p {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .contact .contact-region img {
+    width: 30px;
+  }
+}
 .photo-grid {
   margin: 1em auto;
   text-align: center;
+  padding-left: auto;
 }
 
 .photo-grid li.HWW {

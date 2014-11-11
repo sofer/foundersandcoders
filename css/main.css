@@ -692,20 +692,21 @@ div.clear {
 .student-page .about-brief .buttons #apply-button {
   background-color: #069490;
   color: #fff;
-  border: 3px #069490 solid;
 }
 .student-page .about-brief .buttons #apply-button:hover {
   background-color: #1A7673;
-  border: 3px #1A7673 solid;
 }
 .student-page .about-brief .buttons #more-info-button {
   color: #6E6E6E;
-  border: 3px #848484 solid;
+}
+.student-page .about-brief .buttons #more-info-button:hover {
+  background-color: #D8D6D6;
 }
 .student-page .about-brief .buttons button {
   width: 100%;
   height: 60px;
   border-radius: 0;
+  border: none;
 }
 .student-page .after-course {
   height: 100vh;
@@ -742,11 +743,11 @@ div.clear {
   width: 100%;
   height: 60px;
   border-radius: 0;
+  border: none;
 }
 .student-page .after-course .buttons #get-in-touch {
   background-color: #60C2BE;
   color: #27285a;
-  border: 3px #0D5F77 solid;
 }
 .student-page .after-course .buttons #get-in-touch:hover {
   background-color: #45A5A1;
@@ -754,16 +755,15 @@ div.clear {
 .student-page .after-course .buttons #support-us {
   background-color: #A3CF73;
   color: #006b68;
-  border: 3px #006b68 solid;
 }
 .student-page .after-course .buttons #support-us:hover {
-  background-color: #75D8E5;
+  background-color: #8BAE64;
 }
 .student-page .schedule {
   height: 100%;
   background-color: #81DAF5;
 }
-.student-page .schedule h1 {
+.student-page .schedule #title {
   margin-top: 50px;
   padding-bottom: 5px;
   color: #336D8B;
@@ -804,6 +804,21 @@ div.clear {
 .student-page .schedule #accordion .panel-default .panel-body ul {
   margin-left: 30px;
   color: #336D8B;
+}
+.student-page .schedule .buttons {
+  margin-bottom: 15vh;
+  padding: 0 50px;
+}
+.student-page .schedule .buttons #apply-button {
+  width: 100%;
+  height: 60px;
+  border-radius: 0;
+  background-color: #3E92B6;
+  color: #fff;
+  border: none;
+}
+.student-page .schedule .buttons #apply-button:hover {
+  background-color: #3A89AB;
 }
 
 /*# sourceMappingURL=main.css.map */

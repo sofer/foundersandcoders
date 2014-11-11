@@ -410,6 +410,16 @@ div.clear {
   margin-top: 5%;
   *zoom: 1;
 }
+.home-page .about-list .aboutlist_container .container h2 {
+  text-align: center;
+  padding-bottom: 1%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.home-page .about-list .aboutlist_container .container p#subheading {
+  text-align: center;
+  padding-bottom: 3%;
+  font-family: "Source Sans Pro", sans-serif;
+}
 .home-page .about-list .aboutlist_container .container .triptych {
   padding: 0vw 2.5vw 2vw;
 }

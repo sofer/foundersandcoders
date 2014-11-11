@@ -225,14 +225,12 @@ div.clear {
 .kickstarter .container h1 {
   font-size: 60px;
   color: #ffffff;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 .kickstarter .container h3 {
   font-size: 30px;
   font-weight: 300;
   color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 10px;
   letter-spacing: 1px;
 }
 .kickstarter .container a {
@@ -416,6 +414,7 @@ div.clear {
   font-family: "Source Sans Pro", sans-serif;
 }
 .home-page .about-list .aboutlist_container {
+  padding: 50px 0 100px;
   height: 100%;
   *zoom: 1;
   display: block;
@@ -435,13 +434,6 @@ div.clear {
   color: #484652;
   font-weight: bold;
   font-size: 1.5em;
-}
-.home-page .about-list .aboutlist_container img {
-  width: 45px;
-  height: auto;
-  display: block;
-  float: left;
-  margin-right: 10px;
 }
 .home-page .about-list .aboutlist_container .container {
   margin-top: 5%;

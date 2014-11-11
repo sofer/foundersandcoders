@@ -716,6 +716,42 @@ div.clear {
   filter: alpha(opacity=50);
 }
 
+@media only screen and (max-device-width: 767px) {
+  .process-page .process-heading {
+    height: 100vh;
+  }
+  .process-page .process-heading .row {
+    padding-top: 100px;
+  }
+  .process-page .process-heading .row h1 {
+    font-size: 50px;
+  }
+  .process-page .process-heading .row h2 {
+    font-size: 20px;
+  }
+  .process-page .step-one h1 {
+    font-size: 30px;
+  }
+  .process-page .step-one p {
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+  .process-page .step-one img {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    margin-top: 0;
+  }
+  .process-page .step-two h1 {
+    font-size: 30px;
+  }
+  .process-page .step-two p {
+    font-size: 15px;
+  }
+  .process-page .step-two .mentor-wrapper img {
+    padding: 10px;
+  }
+}
 .student-page {
   font-family: "Source Sans Pro", sans-serif;
 }

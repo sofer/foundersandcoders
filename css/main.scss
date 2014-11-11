@@ -264,28 +264,29 @@ and (max-device-width : 1024px) {
             font-weight: 300;
             color: #ffffff;
             button {
-                   border: 1px solid #888;
-                   background: #0776C0;
-                   padding: 6.5px 18px 11px;
-                   border-radius: 3px;
-                   text-shadow: #000000 0 1px 0;
+                   border: none;
+                   // border: 1px solid #888;
+                   background: #6FC9D0;
+                   padding: 10px 18px 10px;
+                   // border-radius: 3px;
+                   // text-shadow: #000000 0 1px 0;
                    color: #ffffff;
                    font-size: 16px;
                    font-family: $FONT;
                    text-decoration: none;
                    vertical-align: middle;
-                   margin-top: 2%;
+                   // margin-top: 2%;
             }
             button:hover {
-               border: 1px solid #0a3c59;
-               text-shadow: #1e4158 0 1px 0;
-               background: #3e779d;
+               // border: 1px solid #0a3c59;
+               // text-shadow: #1e4158 0 1px 0;
+               background: #282732;
                color: #fff;
             }
             button:active {
-               text-shadow: #1e4158 0 1px 0;
-               border: 1px solid #0a3c59;
-               background: #65a9d7;
+               // text-shadow: #1e4158 0 1px 0;
+               // border: 1px solid #0a3c59;
+               background: #282732;
                color: #fff;
             }
         }
@@ -377,9 +378,8 @@ and (max-device-width : 767px) {
                 }
             p {
                 font-size: 12px;
-                margin-right: 0;
-                margin-left: 0;
                 letter-spacing: 1.5px;
+                margin: 100px, 0px, 100px, 0px;
             }
             #mediaButton {
                 margin-bottom: 100px;
@@ -449,7 +449,7 @@ and (max-device-width : 767px) {
     .about-list {
         font-family: $FONT;
         .aboutlist_container {
-            height: 100vh;
+            height: 100%;
             *zoom: 1;
             display: block;
             margin: 0 auto;
@@ -548,9 +548,11 @@ and (max-device-width : 767px) {
     .brands {
         font-family: $FONT;
         background-color: #78b7bb;
+        text-align: center;
         .logo-region {
             margin: 0 auto;
             padding: 50px 0 0px;
+
             .brand-logos {
                 .hapi {
                     img {
@@ -581,6 +583,13 @@ and (max-device-width : 767px) {
                     }
                 }
                 .d3 {
+                    img {
+                        width: 100px;
+                        height: auto;
+                        padding-bottom: 50px;
+                    }
+                }
+                .angular {
                     img {
                         width: 100px;
                         height: auto;
@@ -654,6 +663,11 @@ and (max-device-width : 767px) {
                     .d3 {
                         img {
                             width: 50px;
+                        }
+                    }
+                    .angular {
+                        img {
+                            width: 70px;
                         }
                     }
                 }

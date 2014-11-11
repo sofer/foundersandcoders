@@ -373,48 +373,33 @@ and (max-device-width : 767px) {
             height: 100%;
         }
         .container {
-            padding-top: 100px;
+            padding-top: 50px;
             h1 {
-                font-size: 30px;
+                font-size: 25px;
             }
             h3 {
-                font-size: 15px;
+                font-size: 16px;
             }
+            a {
                 button {
-                       border: 1px solid #888;
-                       background: #0776C0;
-                       padding: 5px 5px 5px;
-                       font-size: 20px;
+                    height: 30px;
+                    font-size: 12px;
+                    padding: 5px 20px;
+                    margin-top: 0;
+                    margin-bottom: 50px;
+                    span {
+                        padding-right: 5px;
+                    }
                 }
+            }
             p {
                 font-size: 12px;
                 letter-spacing: 1.5px;
-                margin: 100px, 0px, 100px, 0px;
-            }
-            #mediaButton {
-                margin-bottom: 100px;
-                div {
-                    margin-right: 1vw;
-                    p {
-                        font-size: 12px;
-                    }
-                    a {
-                        #twitterlogo {
-                            height: 15px;
-                            margin-right: 15px;
-                        }
-                        #facebooklogo {
-                            height: 15px;
-                            margin-right: 15px;
-                        }
-                    }
-                    #supportus {
-                        margin-bottom: 50px;
-                    }
-                }
+                margin: 20px 0;
+                padding: 0;
             }
             .outer {
-            top: -50px;
+            top: 0px;
             left: -15px;
             .bouncing {
                 position: absolute;
@@ -613,12 +598,13 @@ and (max-device-width : 767px) {
         .about-list {
             .aboutlist_container {
                 height: 100%;
+                padding: 10px 0 20px;
                 p {
-                    font-size: 14px;
+                    font-size: 12px;
                     line-height: 1.5;
                 }
                 h4 {
-                    font-size: 22px;
+                    font-size: 18px;
                     text-align: center;
                     letter-spacing: 5px;
                     margin-top: 20px;
@@ -642,36 +628,42 @@ and (max-device-width : 767px) {
         //branch logos section here
         .brands {
             .logo-region {
-                padding: 50px 0 0;
+                padding: 15px 0 0;
                 .brand-logos {
                     .hapi {
                         img {
-                            width: 70px;
+                            width: 50px;
+                            padding-bottom: 15px;
                         }
                     }
                     .javascript {
                         img {
-                            width: 70px;
+                            width: 50px;
+                            padding-bottom: 15px;
                         }
                     }
                     .nodejs {
                         img {
-                            width: 70px;
+                            width: 50px;
+                            padding-bottom: 15px;
                         }
                     }
                     .sass {
                         img {
-                            width: 70px;
+                            width: 50px;
+                            padding-bottom: 15px;
                         }
                     }
                     .d3 {
                         img {
-                            width: 50px;
+                            width: 40px;
+                            padding-bottom: 15px;
                         }
                     }
                     .angular {
                         img {
-                            width: 70px;
+                            width: 50px;
+                            padding-bottom: 15px;
                         }
                     }
                 }
@@ -728,7 +720,7 @@ and (max-device-width : 767px) {
 
     .contact {
         .contact-region {
-            padding: 75px 0;
+            padding: 50px 0;
             h1 {
                 font-size: 30px;
                 padding-bottom: 5px;

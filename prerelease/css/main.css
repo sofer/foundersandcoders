@@ -447,6 +447,7 @@ div.clear {
   text-align: center;
   padding-bottom: 1%;
   font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
 }
 .home-page .about-list .aboutlist_container .container p#subheading {
   text-align: center;
@@ -464,9 +465,10 @@ div.clear {
   padding-bottom: 5px;
 }
 .home-page .more-info {
-  background-color: #000;
+  background-color: #265b7d;
 }
 .home-page .more-info h2 {
+  font-weight: bold;
   text-align: center;
   padding-bottom: 1%;
   font-family: "Source Sans Pro", sans-serif;
@@ -479,12 +481,12 @@ div.clear {
 .home-page .more-info .h4-moreinfo {
   font-weight: bold;
   padding-bottom: 5px;
-  color: #484652;
+  color: #222;
   font-weight: bold;
   font-size: 1.5em;
 }
 .home-page .more-info p {
-  color: #888;
+  color: #333;
   font-size: 1em;
   font-weight: 400;
   line-height: 2.3em;

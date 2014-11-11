@@ -480,6 +480,7 @@ and (max-device-width : 767px) {
                     text-align: center;
                     padding-bottom: 1%;
                     font-family: $FONT;
+                    font-weight: bold;
                 }
                 p#subheading {
                     text-align: center;
@@ -509,8 +510,9 @@ and (max-device-width : 767px) {
         }
     }
     .more-info {
-        background-color: #000;
+        background-color: #265b7d;
         h2 {
+            font-weight: bold;
             text-align: center;
             padding-bottom: 1%;
             font-family: $FONT;
@@ -523,12 +525,12 @@ and (max-device-width : 767px) {
         .h4-moreinfo {
             font-weight: bold;
             padding-bottom: 5px;
-            color: #484652;
+            color: #222;
             font-weight: bold;
             font-size: 1.5em;
         }
         p {
-            color: #888;
+            color: #333;
             font-size: 1em;
             font-weight: 400;
             line-height: 2.3em;
